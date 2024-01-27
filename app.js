@@ -25,11 +25,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.set("view engine", "ejs");
 
-app.get("/Home", function (request, response) {
+app.get("/login", function (request, response) {
   response.render("index");
 });
 
-app.post('/Home', async function(req, res) {
+app.post('/login', async function(req, res) {
   const { role, username, password } = req.body;
   console.log(role,username,password)
 
