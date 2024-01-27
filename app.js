@@ -16,7 +16,8 @@ db.once('open', function() {
 const userSchema = new mongoose.Schema({
   role: String,
   username: String,
-  password: String
+  password: String,
+  fullname:String
 });
 
 const userAuth = mongoose.model('usercollection', userSchema);
@@ -29,16 +30,14 @@ app.get("/login", function (request, response) {
   response.render("index");
 });
 
+let currentUser
 app.post('/login', async function(req, res) {
   const { role, username, password } = req.body;
-  console.log(role,username,password)
-
   try {
-    const foundUser = await userAuth.findOne({ username, password }).exec();
-    console.log(foundUser)
-    if (foundUser) {
+    currentUser = await userAuth.findOne({ username, password }).exec();
+    if (currentUser) {
       // Redirect the user to the main page
-      res.render(`${foundUser.role}_page`,{faculty:foundUser.toJSON().fullname})
+      res.redirect('/dashboard')
     } else {
       // Handle case when user is not found
       res.status(404).send('User not found');
@@ -47,6 +46,16 @@ app.post('/login', async function(req, res) {
     console.error('Error finding user:', error);
     res.status(500).send('Internal server error');
   }
+});
+
+app.get('/dashboard', (req, res) => {
+  if(currentUser) {
+    res.render('dashboard', { name: currentUser.fullname, role: currentUser.role });
+  } else {
+    // Handle case when user is not found or not authenticated
+    res.status(401).send('Unauthorized');
+  }
+  currentUser = null
 });
 
 
