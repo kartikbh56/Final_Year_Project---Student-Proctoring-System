@@ -38,6 +38,7 @@ app.post('/login', async function(req, res) {
     if (currentUser) {
       // Redirect the user to the main page
       res.redirect('/dashboard')
+      console.log(currentUser)      
     } else {
       // Handle case when user is not found
       res.status(404).send('User not found');
@@ -53,12 +54,12 @@ app.get('/dashboard', (req, res) => {
     res.render('dashboard', { name: currentUser.fullname, role: currentUser.role });
   } else {
     // Handle case when user is not found or not authenticated
-    res.status(401).send('Unauthorized');
+    res.redirect('/login')
   }
   currentUser = null
 });
 
 
-app.listen(3000, function () {
+app.listen(3000, '192.168.168.39' ,function () {
   console.log("server started on port 3000");
 });
