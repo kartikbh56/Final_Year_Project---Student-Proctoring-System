@@ -9,7 +9,7 @@
       margin: 0;
       font-family: monsterrat, sans-serif;
       background-image: linear-gradient(120deg, #dce8fa 0%, #c9e7f5 100%);
-
+      
     }
     .login{
       text-align: center;
@@ -59,10 +59,6 @@
       margin-top: 10px;
       border-radius: 15px;
     }
-    .dropdown-container {
-      position: relative;
-      border-radius: 15px;
-    }
   </style>
 </head>
 <body>
@@ -76,17 +72,8 @@
   <div class="container">
     <div class="login">Sign in</div>
     <form method="post">
-        <div class="dropdown-container">
-            <select id="courses" name="role">
-              <option value="" selected>Select role</option>
-              <option value="admin">Admin</option>
-              <option value="faculty">Faculty</option>
-              <option value="student">Student</option>
-            </select>
-          </div>
       <input placeholder="Username" type="text" id="username" name="username" required>
       <input placeholder="Password" type="password" id="password" name="password" required>
-
       <button type="submit">Sign In</button>
     </form>
   </div>
