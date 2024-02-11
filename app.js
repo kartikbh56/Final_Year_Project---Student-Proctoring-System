@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 const session = require('express-session');
 
 // Connect to MongoDB
-mongoose.connect('mongodb://127.0.0.1:27017/users');
+mongoose.connect('mongodb://127.0.0.1:27017/student_proctoring_db');
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 db.once('open', function() {
@@ -21,7 +21,7 @@ const userSchema = new mongoose.Schema({
   password: String,
   fullname:String
 });
-const userAuth = mongoose.model('usercollection', userSchema);
+const userAuth = mongoose.model('userAuths', userSchema);
 
 // Configure middleware
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -75,6 +75,6 @@ app.post('/logout', (req, res) => {
 });
 
 // Start the server
-app.listen(3000, '192.168.168.39', function () {
+app.listen(3000, function () {
   console.log("Server started on port 3000");
 });
