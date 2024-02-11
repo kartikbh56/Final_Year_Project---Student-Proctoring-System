@@ -3,58 +3,81 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Student proctoring system</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: monsterrat, sans-serif;
-      background-image: linear-gradient(120deg, #dce8fa 0%, #c9e7f5 100%);
-    }
-      .navbar {
-      background-color: darkslategray;
-      text-align: center;
-      padding: 10px;
-      color: white;
-      padding-bottom: 30px;
-      padding-top: 20px;
-      font-size: 25px;
-      font-weight: 550;
-      line-height: 30px;
-    }
-    .name{
-        padding:5px;
-        font-size: 25px;
-        padding: 25px;
-        background-color: rgb(235, 152, 93);
-        color:black;
-        font-weight: bolder;
+  <title>Dashboard</title>
+<style>
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-    }
-    .label{
-        border: 2px solid black;
-        background-color: rgb(209, 159, 255);
-        color: black;
-        border-radius: 10px;
-        width: 80px;
-        margin-left: 5px;
-        font-size: 20px;
-        text-align: center;
-        margin-top: 15px;
-        font-weight: normal;
-    }
- </style>
- </head>
- <body>
-    <div class="navbar">
-        <div>BVVS Sangha's</div>
-        <div>Basaveshwar Engineering College (Autonomous) Bagalkot </div>
-      </div>
-      <div class="name">
-        <%=name%>
-        <form action="/logout" method="POST">
-          <button type="submit">Logout</button>
-        </form>
-      </div>
-        <div class='label'><%=role%></div>
-      
- </body>
+.dashboard-menu {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabs ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tabs ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.tabs ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.tabs ul li a:hover {
+  text-decoration: underline;
+}
+
+.logout-btn {
+  background-color: #fd4531;
+  color: #fff;
+  border: none;
+  padding: 7px 14px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.logout-btn:hover {
+  background-color: #a93226;
+}
+#role{
+  background-color: #c09fff;
+  color: black;
+  border: none;
+  padding: 5px 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: 3px;
+}
+
+  </style>
+</head>
+<body>
+  <%- include('navbar.ejs') %>
+  <div class="dashboard-menu">
+    <div>
+      <span>Welcome, <strong><%=name%></strong></span>
+      <span id="role"><strong><%=role%></strong></span>
+    </div>
+    <form action="/logout" method="POST">
+      <button type="submit" class="logout-btn">Logout</button>
+    </form>
+  </div>
+  <!-- Main content goes here -->
+</body>
+</html>
