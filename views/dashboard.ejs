@@ -1,83 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard</title>
-<style>
-  body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
 
-.dashboard-menu {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+      .dashboard-menu {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
 
-.tabs ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
+      .tabs ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
 
-.tabs ul li {
-  display: inline-block;
-  margin-right: 20px;
-}
+      .tabs ul li {
+        display: inline-block;
+        margin-right: 20px;
+      }
 
-.tabs ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 16px;
-}
+      .tabs ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+      }
 
-.tabs ul li a:hover {
-  text-decoration: underline;
-}
+      .tabs ul li a:hover {
+        text-decoration: underline;
+      }
 
-.logout-btn {
-  background-color: #fd4531;
-  color: #fff;
-  border: none;
-  padding: 2.5px 10px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 15px;
-}
+      .logout-btn {
+        background-color: #fd4531;
+        color: #fff;
+        border: none;
+        padding: 2.5px 10px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 15px;
+      }
 
-.logout-btn:hover {
-  background-color: #a93226;
-}
-#role{
-  background-color: #c09fff;
-  color: black;
-  border: none;
-  padding: 1.5px 5px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 10px;
-  margin-left: 3px;
-}
+      .logout-btn:hover {
+        background-color: #a93226;
+      }
+      #role {
+        background-color: #c09fff;
+        color: black;
+        border: none;
+        padding: 1.5px 5px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 10px;
+        margin-left: 3px;
+      }
+      table {
+        width: 100%;
+        max-width: 600px;
+        margin: 20px auto;
+        margin-bottom: 50px;
+        border-collapse: collapse;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        overflow: hidden;
+        background-color: white;
+      }
+      th:nth-child(2),
+      td:nth-child(2) {
+        width: 150px;
+      }
+      th:nth-child(1),
+      td:nth-child(1) {
+        width: 10px;
+      }
 
-  </style>
-</head>
-<body>
-  <%- include('navbar.ejs') %>
-  <div class="dashboard-menu">
-    <div>
-      <span>Welcome, <strong><%=name%></strong></span>
-      <span id="role"><strong><%=role%></strong></span>
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+      }
+
+      th {
+        background-color: #525252;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        padding: 7px;
+      }
+
+      .semester-heading {
+        background-color: #333333;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      tr:hover {
+        background-color: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <%- include('navbar.ejs') %>
+    <div class="dashboard-menu">
+      <div>
+        <span>Welcome, <strong><%=name%></strong></span>
+        <span id="role"><strong><%=role%></strong></span>
+      </div>
+      <form action="/logout" method="POST">
+        <button type="submit" class="logout-btn">Logout</button>
+      </form>
     </div>
-    <form action="/logout" method="POST">
-      <button type="submit" class="logout-btn">Logout</button>
-    </form>
-  </div>
-  <!-- Main content goes here -->
-</body>
+
+    <!-- students' list -->
+
+    <% [1, 3, 5, 7].forEach((semester) => { %> <% if
+    (eval(`sem${semester}std.length > 0`)) { %>
+    <table>
+      <thead>
+        <tr>
+          <th class="semester-heading" colspan="3">
+            Semester : <%= semester %>
+          </th>
+        </tr>
+        <tr>
+          <th>Sl.NO</th>
+          <th>USN</th>
+          <th>Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% eval(`sem${semester}std`).forEach((element, index) => { %>
+        <tr>
+          <td><%= index + 1 %></td>
+          <td><%= element.usn %></td>
+          <td><%= element.fullname %></td>
+        </tr>
+        <% }) %>
+      </tbody>
+    </table>
+    <% } %> <% }) %>
+  </body>
 </html>

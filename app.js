@@ -1,4 +1,4 @@
-// Import necessary modules
+// Import modules
 const express = require("express");
 const app = express();
 const ejs = require("ejs");
@@ -14,7 +14,7 @@ db.once('open', function() {
   console.log('Connected to MongoDB');
 });
 
-// Define user schema and model
+// Define schema
 const userSchema = new mongoose.Schema({
   role: String,
   username: String,
@@ -23,16 +23,25 @@ const userSchema = new mongoose.Schema({
 });
 const userAuth = mongoose.model('userAuths', userSchema);
 
+const studentSchema = new mongoose.Schema({
+  usn : String,
+  fullname : String,
+  faculty : String,
+  facultyName : String,
+  sem : String
+})
+const studentModel = mongoose.model('students',studentSchema)
+
 // Configure middleware
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.set("view engine", "ejs");
 app.use(session({
-  secret: 'your_secret_key', // Set a secret key for session management
+  secret: 'random_secret_key', 
   resave: false,
   saveUninitialized: true
 }));
-
+ 
 // Login route
 app.get("/login", function (request, response) {
   response.render("index");
@@ -55,10 +64,16 @@ app.post('/login', async function(req, res) {
 });
 
 // Dashboard route
-app.get('/dashboard', (req, res) => {
+app.get('/dashboard', async function(req, res){
   if(req.session.user) {
-    const { fullname, role } = req.session.user;
-    res.render('dashboard', { name: fullname, role });
+    const { fullname, role, username : faculty } = req.session.user;
+    const requiredData = await studentModel.find({faculty}).exec()
+    // console.log(requiredData)
+    const sem7std = requiredData.filter(element=>element.sem === '7')
+    const sem5std = requiredData.filter(element=>element.sem === '5')
+    const sem3std = requiredData.filter(element=>element.sem === '3')
+    const sem1std = requiredData.filter(element=>element.sem === '1')
+    res.render('dashboard', { name: fullname, role , sem3std, sem5std, sem1std, sem7std });
   } else {
     res.redirect('/login');
   }
