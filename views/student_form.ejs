@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student details form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+      rel="stylesheet"
+    />
+    <style>
+      html,
+      body {
+        min-height: 100%;
+        background-image: linear-gradient(120deg, #dce8fa 0%, #c9e7f5 100%);
+      }
+      .stdform,
+      input,
+      select,
+      p {
+        padding: 0;
+        margin: 0;
+        outline: none;
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 14px;
+        color: #2b2b2b;
+      }
+
+      input {
+        border: 1px solid rgb(78, 78, 78);
+        border-radius: 7px;
+      }
+      table input {
+        text-align: center;
+        border: 0.5px solid;
+      }
+      table {
+        border-collapse: collapse;
+      }
+
+      h1 {
+        margin: 0;
+        font-weight: 400;
+      }
+
+      h2 {
+        margin: 12px 0;
+        color: #666;
+      }
+
+      .main-block {
+        margin: 70px 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        border: 3px solid rgb(128, 127, 127);
+        border-radius: 10px;
+      }
+
+      .stdform {
+        width: 100%;
+        padding: 20px;
+      }
+
+      fieldset {
+        border: none;
+        border-top: 1px solid rgb(35, 136, 35);
+      }
+
+      .student-details,
+      .parent-details {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .student-details > div,
+      .parent-details > div > div {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+
+      .student-details > div,
+      .parent-details > div {
+        width: 100%;
+      }
+
+      label {
+        padding: 0 5px;
+        text-align: right;
+        vertical-align: middle;
+        font-weight: bold;
+      }
+
+      input {
+        padding: 5px;
+        vertical-align: middle;
+      }
+
+      select {
+        background: transparent;
+      }
+
+      .bdate-block {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .finalsubmitbtn {
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+        color: #fff;
+        padding: 10px;
+        background: rgb(20, 46, 46);
+        font-weight: 600;
+        font-size: 14px;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      .finalsubmitbtn:hover {
+        background: rgb(19, 36, 36);
+      }
+
+      textarea {
+        resize: none;
+        overflow-y: auto;
+      }
+      .table1,
+      .table2,
+      .table3 {
+        border-collapse: collapse;
+        margin: 0 auto;
+      }
+      th,
+      td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 4px;
+      }
+
+      th {
+        background-color: #525252;
+        color: white;
+        font-weight: bold;
+        padding: 5px;
+        text-align: center;
+      }
+      .table-entry {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 5px;
+      }
+
+      legend > h2 {
+        color: rgb(11, 92, 65);
+      }
+
+      @media (max-width: 767px) {
+        .student-details > div,
+        .parent-details > div {
+          width: 100%;
+        }
+
+        label {
+          width: 30%;
+        }
+
+        input,
+        select,
+        textarea {
+          width: 70%;
+        }
+      }
+
+      @media (min-width: 768px) {
+        .student-details > div,
+        .parent-details > div {
+          width: 50%;
+        }
+
+        label {
+          width: 40%;
+        }
+
+        input,
+        select,
+        textarea {
+          width: 60%;
+        }
+      }
+      .dashboard-menu {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logout-btn {
+        background-color: #fd4531;
+        color: #fff;
+        border: 1px solid rgb(255, 212, 212);
+        padding: 5px 15px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 15px;
+      }
+      #role {
+        background-color: #c09fff;
+        color: black;
+        border: none;
+        padding: 3px 10px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 10px;
+        margin-left: 3px;
+      }
+      
+    </style>
+  </head>
+
+  <body>
+    <%-include('navbar') %>
+    <div class="dashboard-menu">
+        <div>
+          <span>Welcome, <strong><%=requiredData.fullname%></strong></span>
+          <span id="role"><strong><%=role%></strong></span>
+        </div>
+        <form action="/logout" method="POST">
+          <button type="submit" class="logout-btn">Logout</button>
+        </form>
+      </div>
+    <div class="main-block">
+      <form action="/" class="stdform">
+        <fieldset>
+          <legend>
+            <h2>Student Information</h2>
+          </legend>
+          <div class="student-details">
+            <div>
+              <label style="width: 80px;" >Full Name</label>
+              <input disabled value="<%=requiredData.fullname%>" type="text" name="fullname" required style="text-transform: uppercase; width:100%" />
+            </div>
+            <div>
+              <label>USN</label>
+              <input value="<%= requiredData.usn  %>" type="text" name="usn" required style="text-transform: uppercase;" />
+            </div>
+            <div>
+              <label for="admissionYear">Year of Admission</label>
+              <input value="<%=requiredData.yearOfAdmission%>" type="number" id="admissionYear" name="admissionYear" min="2015" max="2100" />
+              <label for="admissionYear">Mode of Admission</label>
+              <select name="" id="">
+                <option value="<%=requiredData.modeOfAdmission%>" selected><%=requiredData.modeOfAdmission%></option>
+                <option value="cet">KCET</option>
+                <option value="management">Management</option>
+                <option value="comedk">Comed-K</option>
+                <option value="lateral">Lateral</option>
+              </select>
+              <label for="CET Ranking">CET Ranking</label>
+              <input type="number" id="cet" name="cet" value="<%=requiredData.cetRank%>" />
+            </div>
+            <div>
+              <label for="contactno.">Contact Number</label>
+              <input type="tel" value="<%=requiredData.contactNum%>"/>
+            </div>
+            <div>
+              <label for="dob">Date of Birth:</label>
+              <input type="date" id="dob" name="dob" />
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" value="<%=requiredData.dob%>"/>
+            </div>
+            <div>
+              <label for="adhar">Aadhaar number</label>
+              <input type="number" id="adhar" name="adhar" value="<%=requiredData.adhar%>"/>
+            </div>
+            <div>
+              <label for="address">Residential Address</label>
+              <textarea ><%=requiredData.address%></textarea>
+            </div>
+            <div>
+              <label for="blood-group">Blood Group:</label><br />
+              <select id="blood-group" name="blood-group">
+                <option value="<%=requiredData.bloodGroup%>" selected><%=requiredData.bloodGroup%></option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+              </select>
+            </div>
+            <div>
+              <label for="photo">Upload your Photo:</label><br />
+              <input type="file" id="photo" name="photo" accept="image/*"/>
+            </div>
+            <div>
+              <label for="faculty">faculty advisor</label>
+              <select>
+                <option value="">Select Faculty Advisor</option>
+                <option value="Dr. S. P. Bangarshetti">Dr. S. P. Bangarshetti</option>
+                <option value="P. V. Kulkarni">P. V. Kulkarni</option>
+                <option value="Preeti S. Puranik">Preeti S. Puranik</option>
+                <option value="Dr. L. B. Bhajantri">Dr. L. B. Bhajantri</option>
+                <option value="Roopa B Math">Roopa B Math</option>
+                <option value="Vijayalaxmi S. Patil">Vijayalaxmi S. Patil</option>
+                <option value="Sandeep N. Kugali">Sandeep N. Kugali</option>
+                <option value="G. M. Patil">G. M. Patil</option>
+                <option value="P. K. Deshpande">P. K. Deshpande</option>
+                <option value="Deepa I Kalappanavar">Deepa I Kalappanavar</option>
+                <option value="Chetana R. Shivanagi">Chetana R. Shivanagi</option>
+                <option value="M. R. Patil">M. R. Patil</option>
+                <option value="S. S. Hiremath">S. S. Hiremath</option>
+                <option value="Dr. Shobha R Patil">Dr. Shobha R Patil</option>
+                <option value="G. B. Shettar">G. B. Shettar</option>
+              </select>
+            </div>
+          </div>
+        </fieldset>
+        
+        <fieldset>
+          <legend><h2>Parent / Guardian Details</h2></legend>
+          <div class="parent-details">
+            <div>
+              <div>
+                <label for="father">Father's Name</label>
+                <input type="text" />
+              </div>
+              <div>
+                <label for="fatherocc">Father's Occupation</label>
+                <input type="text" />
+              </div>
+              <div>
+                <label for="fatherqual">Father's Qualification</label>
+                <input type="text" />
+              </div>
+              <div>
+                <label for="contactno.">Father's Contact Number</label>
+                <input type="tel" />
+                <label for="email">Father's Email</label>
+                <input type="email" id="email" name="email" />
+              </div>
+            </div>
+            <div>
+              <div>
+                <label for="mother">Mother's Name</label>
+                <input type="text" />
+              </div>
+              <div>
+                <label for="motherocc">Mother's Occupation</label>
+                <input type="text" />
+              </div>
+              <div>
+                <label for="motherqual">Mother's Qualification</label>
+                <input type="text" />
+              </div>
+              <div>
+                <label for="contactno.">Mother's Contact Number</label>
+                <input type="tel" />
+                <label for="email">Mother's Email</label>
+                <input type="email" id="email" name="email" />
+              </div>
+            </div>
+            <div>
+              <label for="address">Residential Address</label>
+              <textarea></textarea>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend><h2>Previous Academic Records</h2></legend>
+            <table class="table1">
+              <thead>
+                <tr>
+                  <th>Qualifying Examination</th>
+                  <th>Year of passing</th>
+                  <th>Board</th>
+                  <th>Institute</th>
+                  <th>GPA / Percentage / Grade Obtained</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Class - X</td>
+                  <td><input type="number" name="x_year" class="table-entry" /></td>
+                  <td><input type="text" name="x_board" class="table-entry" /></td>
+                  <td><input type="text" name="x_institute" class="table-entry" /></td>
+                  <td><input type="text" name="x_marks" class="table-entry" /></td>
+                </tr>
+                <tr>
+                  <td>Class - XII / Diploma</td>
+                  <td><input type="number" name="xii_year" class="table-entry" /></td>
+                  <td><input type="text" name="xii_board" class="table-entry" /></td>
+                  <td><input type="text" name="xii_institute" class="table-entry" /></td>
+                  <td><input type="text" name="xii_marks" class="table-entry" /></td>
+                </tr>
+                <tr>
+                  <td>B.E</td>
+                  <td><input type="number" name="be_year" class="table-entry" /></td>
+                  <td><input type="text" name="be_board" class="table-entry" /></td>
+                  <td><input type="text" name="be_institute" class="table-entry" /></td>
+                  <td><input type="text" name="be_marks" class="table-entry" /></td>
+                </tr>
+              </tbody>
+            </table>
+        </fieldset>
+        <fieldset>
+          <legend><h2>Semester wise Academic Records</h2></legend>
+            <table class="table2">
+              <thead>
+                <tr>
+                  <th>Sem</th>
+                  <th>Credits registered</th>
+                  <th>Credits Earned</th>
+                  <th>SGPA</th>
+                </tr>
+              </thead>
+              <tbody>
+                <% for(let i=1;i<=8;i++){ %>
+                <tr>
+                  <td style="text-align: center;"><%=i%></td>
+                  <td><input type="text" name="sem<%=i%>credreg" class="table-entry" /></td>
+                  <td><input type="text" name="sem<%=i%>credearned" class="table-entry" /></td>
+                  <td><input type="text" name="sem<%=i%>sgpa" class="table-entry" /></td>
+                </tr>
+                <% } %>
+              </tbody>
+            </table>
+        </fieldset>
+
+        <fieldset>
+          <legend><h2>Supplementary Semesters Details</h2></legend>
+            <table class="table2">
+              <thead>
+                <tr>
+                  <th>Sl.no</th>
+                  <th>Credits registered</th>
+                  <th>Credits Earned</th>
+                  <th>SGPA</th>
+                  
+                </tr>
+              </thead>
+              <tbody>
+                <% for(let i=1;i<=4;i++){ %>
+                <tr>
+                  <td style="text-align: center;"><%=i%></td>
+                  <td><input type="text" name="supp<%=i%>credreg" class="table-entry" /></td>
+                  <td><input type="text" name="supp<%=i%>credearned" class="table-entry" /></td>
+                  <td><input type="text" name="supp<%=i%>passed" class="table-entry" /></td>
+                </tr>
+                <% } %>
+              </tbody>
+            </table>
+        </fieldset>
+
+        <fieldset>
+          <legend><h2>Backlogs History</h2></legend>
+          <div>
+        </div>
+            <table class="table2">
+              <thead>
+                <tr>
+                  <th>Sl.no</th>
+                  <th>Subject Title</th>
+                  <th>Credits</th>
+                  <th>Passed</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align: center;">1</td>
+                  <td><input type="text" name="backlog_subject_title" class="table-entry" /></td>
+                  <td><input type="number" class="table-entry" /></td>
+                  <td style="text-align: center">
+                    <select style="width: 100%">
+                      <option value="">select</option>
+                      <option value="">Yes</option>
+                      <option value="">No</option>
+                    </select>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+        </fieldset>
+ 
+        <fieldset>
+          <legend><h2>Activity Points status</h2></legend>
+          <div class="student-details">
+            <div style="margin: 0 auto">
+              <label for="community">Community:</label>
+              <input type="number" id="community" onchange="calculateTotal()" /><br /><br />
+ 
+              <label for="allied">Allied:</label>
+              <input type="number" id="allied" onchange="calculateTotal()" /><br /><br />
+ 
+              <label for="total">Total:</label>
+              <input type="text" id="total" disabled /><br /><br />
+ 
+              <script>
+                function calculateTotal() {
+                  var communityPoints = parseInt(document.getElementById("community").value) || 0;
+                  var alliedPoints = parseInt(document.getElementById("allied").value) || 0;
+                  var totalPoints = communityPoints + alliedPoints;
+                  document.getElementById("total").value = totalPoints;
+                }
+              </script>
+            </div>
+          </div>
+          <br />
+        </fieldset>
+ 
+        <button class="finalsubmitbtn" type="submit" href="/">Update</button>
+      </form>
+    </div>
+  </body>
+ </html>

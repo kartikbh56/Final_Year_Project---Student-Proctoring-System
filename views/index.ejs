@@ -1,82 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Student proctoring system</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: monsterrat, sans-serif;
-      background-image: linear-gradient(120deg, #dce8fa 0%, #c9e7f5 100%); 
-    }
-    .login{
-      text-align: center;
-      font-size: 25px;
-      font-weight: bolder;
-      padding-bottom: 15px;
-    }
-    .navbar {
-      background-color: darkslategray;
-      text-align: center;
-      padding: 10px;
-      color: white;
-      padding-bottom: 30px;
-      padding-top: 20px;
-      font-size: 25px;
-      font-weight: 550;
-      line-height: 30px;
-    }
-    
-    .container {
-      width: 300px;
-      margin: 50px auto;
-      padding: 20px;
-      padding-bottom: 40px;
-      border: 2px solid #6e6e6e;
-      border-radius: 15px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      background-color: white;
-      text-align: center;
-    }
-    input[type="text"], input[type="password"],select {
-      width: 100%;
-      padding: 10px;
-      margin: 10px 0;
-      display: inline-block;
-      border: 1px solid #ccc;
-      box-sizing: border-box;
-      border-radius: 15px;
-    }
-    button {
-      width: 100%;
-      background-color: darkslategray;
-      color: white;
-      padding: 10px 15px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      margin-top: 10px;
-      border-radius: 15px;
-    }
-  </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student proctoring system</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: monsterrat, sans-serif;
+        background-image: linear-gradient(120deg, #ecf4ff 0%, #e3f6ff 100%);
+      }
+      .navbar {
+        background-color: rgb(20, 46, 46);
+        text-align: center;
+        padding: 10px;
+        color: white;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        font-size: 25px;
+        font-weight: 550;
+        line-height: 30px;
+      }
 
-  <div class="navbar">
-    <img src="BEC logo_04.png" style="width: 180px;height: 90px; padding: 5px;" alt="">
-    <div>BVVS Sangha's</div>
-    <div>Basaveshwar Engineering College (Autonomous) Bagalkot </div>
-  </div>
+      .container {
+        width: 280px;
+        margin: 50px auto;
+        padding: 40px 30px;
+        border: none;
+        border-radius: 12px;
+        box-shadow: 0 0 12px rgb(20, 46, 46);
+        background-color: white;
+        text-align: center;
+      }
 
-  <div class="container">
-    <div class="login">Sign in</div>
-    <form method="post">
-      <input placeholder="Username" type="text" id="username" name="username" required>
-      <input placeholder="Password" type="password" id="password" name="password" required>
-      <button type="submit">Sign In</button>
-    </form>
-  </div>
+      /* Headings */
+      .login {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: #1b1b1b;
+        padding-bottom: 20px;
+      }
 
-</body>
+      /* Input Fields */
+      input[type="text"],
+      input[type="password"]{
+        width: 100%;
+        padding: 10px 12px;
+        margin: 6px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        border-radius: 15px;
+      }
+
+      input[type="text"]:focus,
+      input[type="password"]:focus,
+      button :focus {
+        outline: none;
+        box-shadow: 0 0 5px rgb(20, 46, 46);
+      }
+
+      /* Button */
+      button {
+        width: 100%;
+        background-color: rgb(20, 46, 46);
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: background-color 0.3s ease;
+      }
+      button:hover {
+        background-color: rgb(19, 36, 36);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <img
+        src="BEC logo_04.png"
+        style="width: 180px; height: 90px; padding: 5px"
+        alt=""
+      />
+      <div>BVVS Sangha's</div>
+      <div>Basaveshwar Engineering College (Autonomous) Bagalkot</div>
+    </div>
+
+    <div class="container">
+      <div class="login">Login</div>
+      <form method="post">
+        <input
+          placeholder="Username"
+          type="text"
+          id="username"
+          name="username"
+          required
+        />
+        <input
+          placeholder="Password"
+          type="password"
+          id="password"
+          name="password"
+          required
+        />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
 </html>

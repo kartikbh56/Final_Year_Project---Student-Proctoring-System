@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Details</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        margin: 10px auto;
+        width: 600px;
+        border-radius: 7px;
+      }
+
+      .nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+
+      .nav ul li a {
+        text-decoration: none;
+        color: white;
+        padding: 5px;
+        display: block;
+      }
+
+      .nav ul li {
+        padding: 0 5px;
+      }
+
+      .nav ul li a.active {
+        background-color: #5a5a5a;
+        
+        color: #fff;
+        border-radius: 10px;
+      }
+
+      .header {
+        background-color: rgb(40, 65, 65);
+        
+        color: #ffffff;
+        
+        padding: 10px;
+        text-align: center;
+        
+        margin: 0;
+      }
+
+      .student-name {
+        background-color: rgb(68, 67, 67);
+       
+        color: #ffffff;
+        
+        padding: 15px;
+        text-align: center;
+        
+        word-spacing: 7px;
+        margin: 0;
+      }
+
+      .std-details {
+        margin: 25px 50px;
+        border: 5px solid rgb(68, 67, 67);
+        border-radius: 10px;
+        background-color: rgb(255, 252, 252);
+        color: black;
+        padding: 0;
+        width: 900px;
+      }
+
+      .info-table {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+      }
+
+      .info-row {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 0;
+        border-bottom: 1px solid #ccc;
+      }
+
+      .info-label {
+        font-weight: bold;
+      }
+
+      .info-value {
+        text-align: right;
+      }
+
+      .info-value a {
+        color: #007bff;
+        text-decoration: none;
+      }
+
+      .info-value a:hover {
+        text-decoration: underline;
+      }
+
+      table {
+        width: 100%;
+        max-width: 500px;
+        margin: 20px auto;
+        margin-bottom: 50px;
+        border-collapse: collapse;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        overflow: hidden;
+        background-color: white;
+      }
+
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+        font-size: 14px;
+      }
+
+      th {
+        background-color: #525252;
+        color: white;
+        font-weight: bold;
+        padding: 5px;
+      }
+
+      .table-heading {
+        background-color: #303030;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        padding: 5px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      tr:hover {
+        background-color: #ddd;
+      }
+
+      a {
+        text-decoration: none;
+        color: rgb(82, 90, 209);
+      }
+    </style>
+  </head>
+
+  <body>
+    <%- include('navbar.ejs') %>
+    <h2 class="header">Student Details</h2>
+    <div style="display: flex; justify-content: center">
+      <div class="std-details">
+        <h3 class="student-name"><%=requiredData.fullname%></h3>
+        <nav class="nav">
+          <ul class="nav-links">
+            <li>
+              <a href="#personalDetails" class="nav-link">Personal Details</a>
+            </li>
+            <li>
+              <a href="#academicDetails" class="nav-link">Academic Details</a>
+            </li>
+            <li>
+              <a href="#counsellingReports" class="nav-link"
+                >Counselling Reports</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div id="personalDetails" class="content-section">
+          <div class="info-table">
+            <div class="info-row">
+              <span class="info-label">USN:</span>
+              <span class="info-value"> <%=requiredData.usn%> </span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Sem:</span>
+              <span class="info-value"> <%=requiredData.sem%> </span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Faculty Advisor:</span>
+              <span class="info-value"> <%=requiredData.facultyName%> </span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Email:</span>
+              <span class="info-value">
+                <a href="mailto:<%=requiredData.email%>">
+                  <%=requiredData.email%>
+                </a>
+              </span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Contact:</span>
+              <span class="info-value"> <%=requiredData.contact%> </span>
+            </div>
+          </div>
+
+          <div
+            style="
+              background-color: rgb(68, 67, 67);
+              color: #ffffff;
+              padding: 10px;
+              text-align: center;
+            "
+          >
+            Parent/Guardian Details
+          </div>
+          <div class="info-table">
+            <span class="info-row">
+              <span class="info-label">Name:</span>
+              <span class="info-value"
+                ><%=requiredData.fatherName%></span
+              >
+            </span>
+            <span class="info-row">
+              <span class="info-label">Contact:</span>
+              <span class="info-value"
+                ><%=requiredData.fatherContactNum%></span
+              >
+            </span>
+            <span class="info-row">
+              <span class="info-label">Email:</span>
+              <span class="info-value"
+                ><a href="mailto:<%=requiredData.email%>"
+                  ><%=requiredData.fatheremail%></a
+                ></span
+              >
+            </span>
+            <span class="info-row">
+              <span class="info-label">Address:</span>
+              <span class="info-value"
+                ><%=requiredData.address%></span
+              >
+            </span>
+          </div>
+        </div>
+
+        <div id="academicDetails" class="content-section" style="display: none">
+          <!-- semester details -->
+          <table>
+            <thead>
+              <tr>
+                <th class="table-heading" colspan="4">Semester Details</th>
+              </tr>
+              <tr>
+                <th>Sem</th>
+                <th>Credits registered</th>
+                <th>Credits earned</th>
+                <th>SGPA</th>
+              </tr>
+            </thead>
+            <% for(let i=1;i<=8;i++) { %>
+            <tr>
+              <td><%=i%></td>
+              <td>
+                <%=requiredData['sem'+i]['creditsRegistered']%>
+              </td>
+              <td>
+                <%=requiredData['sem'+i]['creditsEarned']%>
+              </td>
+              <td><%=requiredData['sem'+i]['sgpa']%></td>
+            </tr>
+            <% } %>
+          </table>
+
+          <!-- Backlogs -->
+          <table>
+            <thead>
+              <tr>
+                <th class="table-heading" colspan="4">Backlogs History</th>
+              </tr>
+              <tr>
+                <th>Subject Code</th>
+                <th>Subject title</th>
+                <th>Credits</th>
+                <th>Cleared</th>
+              </tr>
+            </thead>
+            <% requiredData.backlogs.sort((a,b)=>{
+              if(a.cleared && !b.Clear)
+                return -1
+              else if(!a.clear && b.clear)
+                return 1
+              else  
+               return 0
+            }).forEach((sub)=>{ %>
+            <tr>
+              <td><%= sub.subjectCode %></td>
+              <td><%= sub.subjectTitle %></td>
+              <td><%= sub.credits %></td>
+              <% if (sub.cleared) { %>
+              <td>✅</td>
+              <% } else { %>
+
+              <td>❌</td>
+              <% } %>
+            </tr>
+            <%})%>
+          </table>
+
+          <!-- <table>
+            <thead>
+              <tr>
+                <th class="table-heading" colspan="3">Registered subjects</th>
+              </tr>
+              <tr>
+                <th>Subject code</th>
+                <th>Subject title</th>
+                <th>Credits</th>
+              </tr>
+            </thead>
+          </table>
+
+          <table>
+            <thead>
+              <tr>
+                <th class="table-heading" colspan="3">
+                  Re-registered subjects
+                </th>
+              </tr>
+              <tr>
+                <th>Subject code</th>
+                <th>Subject title</th>
+                <th>Credits</th>
+              </tr>
+            </thead>
+          </table> -->
+        </div>
+        <div
+          id="counsellingReports"
+          class="content-section"
+          style="display: none"
+        >
+          <!-- Counselling Reports content here -->
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const navLinks = document.querySelectorAll(".nav-link"); // Use class for consistency
+        const sections = document.querySelectorAll(".content-section");
+
+        // Function to hide all sections
+        function hideAllSections() {
+          sections.forEach((section) => {
+            section.style.display = "none";
+          });
+        }
+
+        // Function to remove 'active' class from all nav links
+        function deactivateAllLinks() {
+          navLinks.forEach((link) => {
+            link.classList.remove("active");
+          });
+        }
+
+        // Add click event to nav links
+        navLinks.forEach((link) => {
+          link.addEventListener("click", function (e) {
+            e.preventDefault(); // Prevent default anchor behavior
+            const targetId = this.getAttribute("href").substring(1);
+
+            // Hide all sections and show the clicked one
+            hideAllSections();
+            document.getElementById(targetId).style.display = "block";
+
+            // Deactivate all links and activate the clicked one
+            deactivateAllLinks();
+            this.classList.add("active");
+          });
+        });
+
+        // Initialize by showing the first section and activating the first link
+        if (sections.length > 0) {
+          hideAllSections(); // Hide all sections initially
+          sections[0].style.display = "block"; // Show the first section
+        }
+        if (navLinks.length > 0) {
+          deactivateAllLinks(); // Deactivate all links initially
+          navLinks[0].classList.add("active"); // Activate the first link
+        }
+      });
+    </script>
+  </body>
+</html>

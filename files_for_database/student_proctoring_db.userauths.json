@@ -1,0 +1,2916 @@
+[{
+  "role": "faculty",
+  "username": "spb@ise",
+  "password": "spb@ise",
+  "fullname": "Dr. S. P. Bangarshetti"
+},
+{
+  "role": "faculty",
+  "username": "pvk@ise",
+  "password": "pvk@ise",
+  "fullname": "P. V. Kulkarni"
+},
+{
+  "role": "faculty",
+  "username": "psp@ise",
+  "password": "psp@ise",
+  "fullname": "Preeti S. Puranik"
+},
+{
+  "role": "faculty",
+  "username": "lbb@ise",
+  "password": "lbb@ise",
+  "fullname": "Dr. L. B. Bhajantri"
+},
+{
+  "role": "faculty",
+  "username": "rbm@ise",
+  "password": "rbm@ise",
+  "fullname": "Roopa B Math"
+},
+{
+  "role": "faculty",
+  "username": "vsp@ise",
+  "password": "vsp@ise",
+  "fullname": "Vijayalaxmi S. Patil"
+},
+{
+  "role": "faculty",
+  "username": "snk@ise",
+  "password": "snk@ise",
+  "fullname": "Sandeep N. Kugali"
+},
+{
+  "role": "faculty",
+  "username": "gmp@ise",
+  "password": "gmp@ise",
+  "fullname": "G. M. Patil"
+},
+{
+  "role": "faculty",
+  "username": "pkd@ise",
+  "password": "pkd@ise",
+  "fullname": "P. K. Deshpande"
+},
+{
+  "role": "faculty",
+  "username": "dik@ise",
+  "password": "dik@ise",
+  "fullname": "Deepa I Kalappanavar"
+},
+{
+  "role": "faculty",
+  "username": "crs@ise",
+  "password": "crs@ise",
+  "fullname": "Chetana R. Shivanagi"
+},
+{
+  "role": "faculty",
+  "username": "mrp@ise",
+  "password": "mrp@ise",
+  "fullname": "M. R. Patil"
+},
+{
+  "role": "faculty",
+  "username": "ssh@ise",
+  "password": "ssh@ise",
+  "fullname": "S. S. Hiremath"
+},
+{
+  "role": "faculty",
+  "username": "srp@ise",
+  "password": "srp@ise",
+  "fullname": "Dr. Shobha R Patil"
+},
+{
+  "role": "faculty",
+  "username": "gbs@ise",
+  "password": "gbs@ise",
+  "fullname": "G. B. Shettar"
+},
+
+
+
+
+
+
+{
+  "role": "student",
+  "username": "2BA21IS001",
+  "password": "2BA21IS001",
+  "fullname": "ABDULKHAYUM HOSAMANI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS002",
+  "password": "2BA21IS002",
+  "fullname": "ABHAYAKUMAR ASHOK DESAI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS003",
+  "password": "2BA21IS003",
+  "fullname": "ABHINAV SHIVANAND KONNUR"
+},
+{
+  "role": "student",
+  "username": "2BA21IS004",
+  "password": "2BA21IS004",
+  "fullname": "ABHISHEK ASHOK BHABAGOUDA"
+},
+{
+  "role": "student",
+  "username": "2BA21IS005",
+  "password": "2BA21IS005",
+  "fullname": "ABHISHEK BADIGER"
+},
+{
+  "role": "student",
+  "username": "2BA21IS006",
+  "password": "2BA21IS006",
+  "fullname": "AFNAN PATEL"
+},
+{
+  "role": "student",
+  "username": "2BA21IS007",
+  "password": "2BA21IS007",
+  "fullname": "AISHWARYA BASAPPA MADI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS008",
+  "password": "2BA21IS008",
+  "fullname": "AISHWARYA JOSHI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS009",
+  "password": "2BA21IS009",
+  "fullname": "AISHWARYA S ADULKAR"
+},
+{
+  "role": "student",
+  "username": "2BA21IS010",
+  "password": "2BA21IS010",
+  "fullname": "AISHWARYA SHASHIDHAR TIRAKANNAVAR"
+},
+{
+  "role": "student",
+  "username": "2BA21IS011",
+  "password": "2BA21IS011",
+  "fullname": "AKSHATA SIDDALINGAPPA YANDIGERI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS012",
+  "password": "2BA21IS012",
+  "fullname": "AMAN SANGMESH SIRDESAI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS013",
+  "password": "2BA21IS013",
+  "fullname": "AMOGH S KHOT"
+},
+{
+  "role": "student",
+  "username": "2BA21IS014",
+  "password": "2BA21IS014",
+  "fullname": "ANANYA R ILKAL"
+},
+{
+  "role": "student",
+  "username": "2BA21IS015",
+  "password": "2BA21IS015",
+  "fullname": "ANEESH U SIDARADDI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS408",
+  "password": "2BA22IS408",
+  "fullname": "SOUMYA KHATAWAKAR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS001",
+  "password": "2BA22IS001",
+  "fullname": "ABHISHEK GADIGEPPA BABALESHWAR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS052",
+  "password": "2BA22IS052",
+  "fullname": "NIDHI GOKULDAS RATHI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS074",
+  "password": "2BA22IS074",
+  "fullname": "SAGAR GURUPRASAD TALIKOTI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS075",
+  "password": "2BA22IS075",
+  "fullname": "SAHANA SHANKAR BUSARE"
+},
+{
+  "role": "student",
+  "username": "2BA22IS076",
+  "password": "2BA22IS076",
+  "fullname": "SAHANA VENKARADDI KARLAWAD"
+},
+{
+  "role": "student",
+  "username": "2023010846",
+  "password": "2023010846",
+  "fullname": "NAYANKUMAR SHIROL"
+},
+{
+  "role": "student",
+  "username": "2023010827",
+  "password": "2023010827",
+  "fullname": "A .A. SOMANAGOUDAR"
+},
+{
+  "role": "student",
+  "username": "2023010549",
+  "password": "2023010549",
+  "fullname": "ADITYA PATTAR"
+},
+{
+  "role": "student",
+  "username": "2023010625",
+  "password": "2023010625",
+  "fullname": "ADVAIT RAJESH TALAWAR"
+},
+{
+  "role": "student",
+  "username": "2023010461",
+  "password": "2023010461",
+  "fullname": "AISHWARYA"
+},
+{
+  "role": "student",
+  "username": "2023010457",
+  "password": "2023010457",
+  "fullname": "AKASH RAMESH SHEDABAL"
+},
+{
+  "role": "student",
+  "username": "2023010131",
+  "password": "2023010131",
+  "fullname": "AMRUTA A PHATTEPUR"
+},
+{
+  "role": "student",
+  "username": "2023010318",
+  "password": "2023010318",
+  "fullname": "ANCHAL SAMAJ"
+},
+{
+  "role": "student",
+  "username": "2023010332",
+  "password": "2023010332",
+  "fullname": "ANNAPURNA GOLASANGI"
+},
+{
+  "role": "student",
+  "username": "2023010334",
+  "password": "2023010334",
+  "fullname": "ANUSHA P NEERALAKERI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS007",
+  "password": "2BA20IS007",
+  "fullname": "ANUSHA SHIVALINGAPPA BENCHALLI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS001",
+  "password": "2BA20IS001",
+  "fullname": "ADARSH HIPPARAGI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS002",
+  "password": "2BA20IS002",
+  "fullname": "ADITI KOLAKI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS003",
+  "password": "2BA20IS003",
+  "fullname": "AKSHAY R K"
+},
+{
+  "role": "student",
+  "username": "2BA20IS004",
+  "password": "2BA20IS004",
+  "fullname": "ANAND TIPPPANNA AMBIGER"
+},
+{
+  "role": "student",
+  "username": "2BA20IS005",
+  "password": "2BA20IS005",
+  "fullname": "ANNAPURNA ASHOK NAIK"
+},
+{
+  "role": "student",
+  "username": "2BA20IS006",
+  "password": "2BA20IS006",
+  "fullname": "ANUJ"
+},
+{
+  "role": "student",
+  "username": "2BA20IS008",
+  "password": "2BA20IS008",
+  "fullname": "ANUSHREE M ZALAKI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS016",
+  "password": "2BA21IS016",
+  "fullname": "ANIKET HIREMATH"
+},
+{
+  "role": "student",
+  "username": "2BA21IS017",
+  "password": "2BA21IS017",
+  "fullname": "ANJALI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS018",
+  "password": "2BA21IS018",
+  "fullname": "ANOOP CHINIVAL"
+},
+{
+  "role": "student",
+  "username": "2BA21IS019",
+  "password": "2BA21IS019",
+  "fullname": "ANUSHA ANAND HACHARADDI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS020",
+  "password": "2BA21IS020",
+  "fullname": "ANUSHA BIDARKUNDI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS021",
+  "password": "2BA21IS021",
+  "fullname": "ANVITA SAVALAGI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS022",
+  "password": "2BA21IS022",
+  "fullname": "ARAVIND CHAVAN"
+},
+{
+  "role": "student",
+  "username": "2BA21IS023",
+  "password": "2BA21IS023",
+  "fullname": "ARPITA UMESH DESHAPANDE"
+},
+{
+  "role": "student",
+  "username": "2BA21IS024",
+  "password": "2BA21IS024",
+  "fullname": "ASHISH SEETHARAM SHETTY"
+},
+{
+  "role": "student",
+  "username": "2BA21IS025",
+  "password": "2BA21IS025",
+  "fullname": "BHUMIKA G JAMBAGI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS026",
+  "password": "2BA21IS026",
+  "fullname": "BHUVAN MAHESH SULAKHE"
+},
+{
+  "role": "student",
+  "username": "2BA22IS407",
+  "password": "2BA22IS407",
+  "fullname": "SHARATH S N"
+},
+{
+  "role": "student",
+  "username": "2BA22IS092",
+  "password": "2BA22IS092",
+  "fullname": "SHREEMANT SHANKAR KUNTHE"
+},
+{
+  "role": "student",
+  "username": "2BA22IS002",
+  "password": "2BA22IS002",
+  "fullname": "ABHISHEK MALLIKARJUN VAKKUND"
+},
+{
+  "role": "student",
+  "username": "2BA22IS003",
+  "password": "2BA22IS003",
+  "fullname": "ABHISHEK VENKATESH VADAVADAGI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS004",
+  "password": "2BA22IS004",
+  "fullname": "ADITI MANAJI KALAL"
+},
+{
+  "role": "student",
+  "username": "2BA22IS005",
+  "password": "2BA22IS005",
+  "fullname": "AISHWARYA HIPPARAGI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS077",
+  "password": "2BA22IS077",
+  "fullname": "SAHANA YALAWAR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS078",
+  "password": "2BA22IS078",
+  "fullname": "SAIKRISHNA RAVINDRA KAMALDINNI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS079",
+  "password": "2BA22IS079",
+  "fullname": "SAMARTH NYAMAGOUDAR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS092",
+  "password": "2BA22IS092",
+  "fullname": "SHREEMANT SHANKAR KUNTHE"
+},
+{
+  "role": "student",
+  "username": "2023010533",
+  "password": "2023010533",
+  "fullname": "ABHISHEK"
+},
+{
+  "role": "student",
+  "username": "2023010631",
+  "password": "2023010631",
+  "fullname": "ANIKET V PAGI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS061",
+  "password": "2BA20IS061",
+  "fullname": "SHIVALINGAPPA RAJASHEKAR TIPPA"
+},
+{
+  "role": "student",
+  "username": "2BA20IS062",
+  "password": "2BA20IS062",
+  "fullname": "SHIVALINGESH S BHARATANURMATH"
+},
+{
+  "role": "student",
+  "username": "COB",
+  "password": "COB",
+  "fullname": "SNEHA MOKASHI"
+},
+{
+  "role": "student",
+  "username": "COB",
+  "password": "COB",
+  "fullname": "BANDENAWAZ .F.BOUDIWALE"
+},
+{
+  "role": "student",
+  "username": "COB",
+  "password": "COB",
+  "fullname": "RAHEMAT JAMAKHANDI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS062",
+  "password": "2BA21IS062",
+  "fullname": "SAMARTH C MAJJAGI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS063",
+  "password": "2BA21IS063",
+  "fullname": "SAMARTH SHRIDHAR JOSHI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS064",
+  "password": "2BA21IS064",
+  "fullname": "SANGAMESH YADAWAD"
+},
+{
+  "role": "student",
+  "username": "2BA21IS065",
+  "password": "2BA21IS065",
+  "fullname": "SANGAMMA SUNAGAD"
+},
+{
+  "role": "student",
+  "username": "2BA21IS066",
+  "password": "2BA21IS066",
+  "fullname": "SANJANA A"
+},
+{
+  "role": "student",
+  "username": "2BA21IS067",
+  "password": "2BA21IS067",
+  "fullname": "SANJANA KRISHNAMURTHI PADASALGI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS068",
+  "password": "2BA21IS068",
+  "fullname": "SANJU"
+},
+{
+  "role": "student",
+  "username": "2BA21IS069",
+  "password": "2BA21IS069",
+  "fullname": "SANMIT MAHADEV PATOLE"
+},
+{
+  "role": "student",
+  "username": "2BA22IS051",
+  "password": "2BA22IS051",
+  "fullname": "NEHA SARANGAMATH"
+},
+{
+  "role": "student",
+  "username": "2BA22IS053",
+  "password": "2BA22IS053",
+  "fullname": "OMKAR D TATUSKAR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS054",
+  "password": "2BA22IS054",
+  "fullname": "PALLAVI SHIVALINGAPPA BOPALAPUR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS055",
+  "password": "2BA22IS055",
+  "fullname": "PAVANKUMAR GULAGANNAVAR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS056",
+  "password": "2BA22IS056",
+  "fullname": "POORVI CHANDRASHEKHAR VASANAD"
+},
+{
+  "role": "student",
+  "username": "2BA22IS095",
+  "password": "2BA22IS095",
+  "fullname": "SHRIKANT BASAVARAJ HIPPARAGI"
+},
+{
+  "role": "student",
+  "username": "2023010826",
+  "password": "2023010826",
+  "fullname": "POONAM CHAVAN"
+},
+{
+  "role": "student",
+  "username": "2023010373",
+  "password": "2023010373",
+  "fullname": "PREETI PRAKASH DEVARADDI"
+},
+{
+  "role": "student",
+  "username": "2023010303",
+  "password": "2023010303",
+  "fullname": "PRIYA R KULKARNI"
+},
+{
+  "role": "student",
+  "username": "2023010398",
+  "password": "2023010398",
+  "fullname": "PRIYANKA DHAVALESHW AR"
+},
+{
+  "role": "student",
+  "username": "2023010350",
+  "password": "2023010350",
+  "fullname": "PUNEET RAVINDRA MACHAKANUR"
+},
+{
+  "role": "student",
+  "username": "2023010615",
+  "password": "2023010615",
+  "fullname": "PUNITH BANI"
+},
+{
+  "role": "student",
+  "username": "2023010031",
+  "password": "2023010031",
+  "fullname": "PUSHKAR KULKARNI"
+},
+{
+  "role": "student",
+  "username": "2023010493",
+  "password": "2023010493",
+  "fullname": "RAGHAVENDR A KULLUR"
+},
+{
+  "role": "student",
+  "username": "2023010466",
+  "password": "2023010466",
+  "fullname": "RAHUL NARAYANAPP A BISANALLI"
+},
+{
+  "role": "student",
+  "username": "2023010098",
+  "password": "2023010098",
+  "fullname": "RAKESH NIRONI"
+},
+{
+  "role": "student",
+  "username": "2023010056",
+  "password": "2023010056",
+  "fullname": "RAKSHITA RAMACHANDR A TIRAKANNAVAR"
+},
+{
+  "role": "student",
+  "username": "2023010338",
+  "password": "2023010338",
+  "fullname": "RAMKUMAR SURESH BHUIN"
+},
+{
+  "role": "student",
+  "username": "2BA20IS009",
+  "password": "2BA20IS009",
+  "fullname": "APPU BASAVARAJ HOSAMANI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS010",
+  "password": "2BA20IS010",
+  "fullname": "APURVA IRANNA JIGAJINNI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS011",
+  "password": "2BA20IS011",
+  "fullname": "ARUN LACHCHAPPA AMBIGER"
+},
+{
+  "role": "student",
+  "username": "2BA20IS012",
+  "password": "2BA20IS012",
+  "fullname": "BAGYASHREE JAINAPUR"
+},
+{
+  "role": "student",
+  "username": "2BA20IS013",
+  "password": "2BA20IS013",
+  "fullname": "BASAVARAJ SHRISHAIL HALYAL"
+},
+{
+  "role": "student",
+  "username": "2BA20IS014",
+  "password": "2BA20IS014",
+  "fullname": "BHAGYASHREE CHINCHANSOOR"
+},
+{
+  "role": "student",
+  "username": "2BA20IS015",
+  "password": "2BA20IS015",
+  "fullname": "BHUVANESHWARI N NAIK"
+},
+{
+  "role": "student",
+  "username": "2BA20IS016",
+  "password": "2BA20IS016",
+  "fullname": "CHAITRA SHRESHAIL AOURASANG"
+},
+{
+  "role": "student",
+  "username": "2BA20IS017",
+  "password": "2BA20IS017",
+  "fullname": "CHANDRAKANT JAGGU GHORPADE"
+},
+{
+  "role": "student",
+  "username": "2BA20IS018",
+  "password": "2BA20IS018",
+  "fullname": "DIVYA MUDAKAYYA HIREMATH"
+},
+{
+  "role": "student",
+  "username": "2BA21IS027",
+  "password": "2BA21IS027",
+  "fullname": "CHINNAPPAGOUDA S PATIL"
+},
+{
+  "role": "student",
+  "username": "2BA21IS028",
+  "password": "2BA21IS028",
+  "fullname": "DEEPAK NEELARADDI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS029",
+  "password": "2BA21IS029",
+  "fullname": "HANAMAVVA HIREMANI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS030",
+  "password": "2BA21IS030",
+  "fullname": "INDUMATI M GIREVVAGOL"
+},
+{
+  "role": "student",
+  "username": "2BA21IS095",
+  "password": "2BA21IS095",
+  "fullname": "AISHWARYA PATIL"
+},
+{
+  "role": "student",
+  "username": "2BA22IS400",
+  "password": "2BA22IS400",
+  "fullname": "AMITKUMAR MORE"
+},
+{
+  "role": "student",
+  "username": "2BA22IS006",
+  "password": "2BA22IS006",
+  "fullname": "AISHWARYA SIRDESAI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS007",
+  "password": "2BA22IS007",
+  "fullname": "AKASH KADAM"
+},
+{
+  "role": "student",
+  "username": "2BA22IS008",
+  "password": "2BA22IS008",
+  "fullname": "AKSHAY KUMAR KHAMITKAR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS009",
+  "password": "2BA22IS009",
+  "fullname": "ALUR PRAVEEN"
+},
+{
+  "role": "student",
+  "username": "2BA22IS010",
+  "password": "2BA22IS010",
+  "fullname": "ANANTKUMAR PUJAR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS011",
+  "password": "2BA22IS011",
+  "fullname": "ANANYA KULKARNI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS012",
+  "password": "2BA22IS012",
+  "fullname": "ANIRUDH VADIRAJ KULKARNI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS013",
+  "password": "2BA22IS013",
+  "fullname": "ANJANA RAGHAVENDRA CHIPPALAKATTI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS014",
+  "password": "2BA22IS014",
+  "fullname": "ANOOP"
+},
+{
+  "role": "student",
+  "username": "2BA22IS015",
+  "password": "2BA22IS015",
+  "fullname": "ANUSHA GURUBASAYYA KARAKANTI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS081",
+  "password": "2BA22IS081",
+  "fullname": "SANJANA R HANCHINAMANI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS082",
+  "password": "2BA22IS082",
+  "fullname": "SANJEEV KALMESH KOTI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS083",
+  "password": "2BA22IS083",
+  "fullname": "SANJEEV MALIBIRADAR"
+},
+{
+  "role": "student",
+  "username": "2BA22EE044",
+  "password": "2BA22EE044",
+  "fullname": "Shreya Pujari"
+},
+{
+  "role": "student",
+  "username": "2023010055",
+  "password": "2023010055",
+  "fullname": "ADARSH KALAGUDI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS099",
+  "password": "2BA22IS099",
+  "fullname": "SNEHA R RADDI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS100",
+  "password": "2BA22IS100",
+  "fullname": "SNEHA SHREEMANT BIRADAR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS101",
+  "password": "2BA22IS101",
+  "fullname": "SOMASHEKARA DEVENDRAPPA DUMMALLI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS102",
+  "password": "2BA22IS102",
+  "fullname": "SOORAJ KULKARNI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS103",
+  "password": "2BA22IS103",
+  "fullname": "SOUMYA SAJJAN"
+},
+{
+  "role": "student",
+  "username": "2BA22IS104",
+  "password": "2BA22IS104",
+  "fullname": "SOURABH RAJAMANI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS105",
+  "password": "2BA22IS105",
+  "fullname": "SUDEEP KAMATE"
+},
+{
+  "role": "student",
+  "username": "2BA22IS106",
+  "password": "2BA22IS106",
+  "fullname": "SUHAS MALLIKARJUN HEBBAL"
+},
+{
+  "role": "student",
+  "username": "2BA22IS107",
+  "password": "2BA22IS107",
+  "fullname": "SUJATA R BADIGER"
+},
+{
+  "role": "student",
+  "username": "2BA22IS108",
+  "password": "2BA22IS108",
+  "fullname": "SURAJ B IJERI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS109",
+  "password": "2BA22IS109",
+  "fullname": "SWATI KAMBLE"
+},
+{
+  "role": "student",
+  "username": "2BA22IS110",
+  "password": "2BA22IS110",
+  "fullname": "TEJASHWINI HANAMANTH SALI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS111",
+  "password": "2BA22IS111",
+  "fullname": "VAIBHAV SANGAPPA KORE"
+},
+{
+  "role": "student",
+  "username": "2BA22IS112",
+  "password": "2BA22IS112",
+  "fullname": "VAISHNAVI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS113",
+  "password": "2BA22IS113",
+  "fullname": "VEERAKUMAR MAHANTESH KILLEDAR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS114",
+  "password": "2BA22IS114",
+  "fullname": "VEERESH TUPPAD"
+},
+{
+  "role": "student",
+  "username": "2BA22IS115",
+  "password": "2BA22IS115",
+  "fullname": "VIJAY NAGAPPA PATTAR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS116",
+  "password": "2BA22IS116",
+  "fullname": "VIJAYALAXMI BASAPPA ADAHALLI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS117",
+  "password": "2BA22IS117",
+  "fullname": "VINAY HATTIKAL"
+},
+{
+  "role": "student",
+  "username": "2BA22IS118",
+  "password": "2BA22IS118",
+  "fullname": "VINAYAK ANAND KAMBLE"
+},
+{
+  "role": "student",
+  "username": "2BA22IS119",
+  "password": "2BA22IS119",
+  "fullname": "VINAYAKUMAR HIREMATH"
+},
+{
+  "role": "student",
+  "username": "2BA22IS120",
+  "password": "2BA22IS120",
+  "fullname": "VINODRADDI ADAPUR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS121",
+  "password": "2BA22IS121",
+  "fullname": "VISHAL FATTEPUR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS122",
+  "password": "2BA22IS122",
+  "fullname": "VISHWANATH PATTAR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS123",
+  "password": "2BA22IS123",
+  "fullname": "VISHWESHWARAYYA RAMAGIRIMATH"
+},
+{
+  "role": "student",
+  "username": "2BA22IS124",
+  "password": "2BA22IS124",
+  "fullname": "YASHAVANTH MALLESHAPPA WARAD"
+},
+{
+  "role": "student",
+  "username": "2BA22IS050",
+  "password": "2BA22IS050",
+  "fullname": "NEHA NARASIMHA SUNADHOLI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS091",
+  "password": "2BA22IS091",
+  "fullname": "SHRADDHA MADABHAVI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS080",
+  "password": "2BA22IS080",
+  "fullname": "SAMPAT LAXMAN BHAGOJI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS060",
+  "password": "2BA22IS060",
+  "fullname": "PRAMOD PRAKASH KAMAGON"
+},
+{
+  "role": "student",
+  "username": "2023010731",
+  "password": "2023010731",
+  "fullname": "POORVI B TONDIKATTI"
+},
+{
+  "role": "student",
+  "username": "COB",
+  "password": "COB",
+  "fullname": "VIJAYALXMI SANKINAMTH"
+},
+{
+  "role": "student",
+  "username": "2BA20IS047",
+  "password": "2BA20IS047",
+  "fullname": "PRATIKSHA SHETTI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS081",
+  "password": "2BA21IS081",
+  "fullname": "SRINIDHI RAGHAVENDRA DESHPANDE"
+},
+{
+  "role": "student",
+  "username": "2BA21IS082",
+  "password": "2BA21IS082",
+  "fullname": "SRISHTI DAYAGOND BIRADAR"
+},
+{
+  "role": "student",
+  "username": "2BA21IS083",
+  "password": "2BA21IS083",
+  "fullname": "SUJEETH S BUDIYAL"
+},
+{
+  "role": "student",
+  "username": "2BA21IS084",
+  "password": "2BA21IS084",
+  "fullname": "SUMEDHA SANTOSH GADDANAKERI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS085",
+  "password": "2BA21IS085",
+  "fullname": "VAIBHAV CHANDRAKANT KULKARNI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS086",
+  "password": "2BA21IS086",
+  "fullname": "VAISHNAVI ELLUR"
+},
+{
+  "role": "student",
+  "username": "2BA21IS087",
+  "password": "2BA21IS087",
+  "fullname": "VEERABHADRAPPA PRAKASH HANDI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS088",
+  "password": "2BA21IS088",
+  "fullname": "VIKAS HOKRANI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS089",
+  "password": "2BA21IS089",
+  "fullname": "VIKAS TIMMANAGOUDAR"
+},
+{
+  "role": "student",
+  "username": "2BA21IS090",
+  "password": "2BA21IS090",
+  "fullname": "VINAYAK VITTHAL DEVAMANE"
+},
+{
+  "role": "student",
+  "username": "2BA21IS091",
+  "password": "2BA21IS091",
+  "fullname": "VINAYKUMAR SHANKARAYYA HIREMATH"
+},
+{
+  "role": "student",
+  "username": "2BA21IS092",
+  "password": "2BA21IS092",
+  "fullname": "VIVEKANAND LIMBIKAI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS093",
+  "password": "2BA21IS093",
+  "fullname": "VRUSHAB HEMGIRE"
+},
+{
+  "role": "student",
+  "username": "2BA21IS094",
+  "password": "2BA21IS094",
+  "fullname": "YASHASHWINI VEERANNA GOKAVI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS097",
+  "password": "2BA21IS097",
+  "fullname": "ABISHEK BIDARALLI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS071",
+  "password": "2BA22IS071",
+  "fullname": "RASHMI SHARANABASAPPA RUDAGI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS072",
+  "password": "2BA22IS072",
+  "fullname": "ROHIT HADAGALI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS073",
+  "password": "2BA22IS073",
+  "fullname": "RUBINABEGAM LALASAB BAVIMANI"
+},
+{
+  "role": "student",
+  "username": "COB",
+  "password": "COB",
+  "fullname": "SANJANA KULKARNI"
+},
+{
+  "role": "student",
+  "username": "2023010674",
+  "password": "2023010674",
+  "fullname": "VANDANA KADALAGI"
+},
+{
+  "role": "student",
+  "username": "2023010294",
+  "password": "2023010294",
+  "fullname": "VANITA LAKSMAN RATHOD"
+},
+{
+  "role": "student",
+  "username": "2023010035",
+  "password": "2023010035",
+  "fullname": "VENKANAGOUD AYYAPPAGOUD PATIL"
+},
+{
+  "role": "student",
+  "username": "2023010104",
+  "password": "2023010104",
+  "fullname": "VENKATESH ANANTA PUROHIT"
+},
+{
+  "role": "student",
+  "username": "2023010074",
+  "password": "2023010074",
+  "fullname": "VIJAYALAXMI BASAVARAJ MALED"
+},
+{
+  "role": "student",
+  "username": "2023010597",
+  "password": "2023010597",
+  "fullname": "VIJAYALAXMI SHANMUKH SANAPETI"
+},
+{
+  "role": "student",
+  "username": "2023010632",
+  "password": "2023010632",
+  "fullname": "VIKAS SUBHAS KANNUR"
+},
+{
+  "role": "student",
+  "username": "2023010593",
+  "password": "2023010593",
+  "fullname": "VIKAS V TOTAD"
+},
+{
+  "role": "student",
+  "username": "2023010051",
+  "password": "2023010051",
+  "fullname": "VINAYAK B KAMANAGOUD RA"
+},
+{
+  "role": "student",
+  "username": "2023010341",
+  "password": "2023010341",
+  "fullname": "VINAYAK SHIVANAND KILLEDAR"
+},
+{
+  "role": "student",
+  "username": "2023010050",
+  "password": "2023010050",
+  "fullname": "VINAYAKAGOUDA S PATIL"
+},
+{
+  "role": "student",
+  "username": "2023010666",
+  "password": "2023010666",
+  "fullname": "VISHWANATH SHIVAPPA BHAJANTRI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS019",
+  "password": "2BA20IS019",
+  "fullname": "HEMANT A PATIL"
+},
+{
+  "role": "student",
+  "username": "2BA20IS020",
+  "password": "2BA20IS020",
+  "fullname": "HRISHIKESH ANANT DESHPANDE"
+},
+{
+  "role": "student",
+  "username": "2BA20IS021",
+  "password": "2BA20IS021",
+  "fullname": "IASMIN KHATUN ASMAT ALI SHAIKH"
+},
+{
+  "role": "student",
+  "username": "2BA20IS022",
+  "password": "2BA20IS022",
+  "fullname": "JYOTI OTAGERI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS023",
+  "password": "2BA20IS023",
+  "fullname": "K SAIVEENA"
+},
+{
+  "role": "student",
+  "username": "2BA20IS024",
+  "password": "2BA20IS024",
+  "fullname": "KAMALA KAMARADDI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS025",
+  "password": "2BA20IS025",
+  "fullname": "KARTIK BASAVARAJ HOSAMANI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS031",
+  "password": "2BA21IS031",
+  "fullname": "K N PRAJNA"
+},
+{
+  "role": "student",
+  "username": "2BA21IS032",
+  "password": "2BA21IS032",
+  "fullname": "KARTIK GIDAVEER"
+},
+{
+  "role": "student",
+  "username": "2BA22IS401",
+  "password": "2BA22IS401",
+  "fullname": "ANKITA NILAJ"
+},
+{
+  "role": "student",
+  "username": "2BA22IS016",
+  "password": "2BA22IS016",
+  "fullname": "ANUSHA SUBRAY KURDEKAR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS017",
+  "password": "2BA22IS017",
+  "fullname": "ARPITA MANGALUR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS018",
+  "password": "2BA22IS018",
+  "fullname": "ARUN C BIDARI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS019",
+  "password": "2BA22IS019",
+  "fullname": "ARUN GOUDAPPA HEBBAL"
+},
+{
+  "role": "student",
+  "username": "2BA22IS020",
+  "password": "2BA22IS020",
+  "fullname": "ARUN R HATTI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS021",
+  "password": "2BA22IS021",
+  "fullname": "ARYANUJAWAL SANGAMESH HALAPETI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS022",
+  "password": "2BA22IS022",
+  "fullname": "BHOOMIKA REDDY"
+},
+{
+  "role": "student",
+  "username": "2BA22IS023",
+  "password": "2BA22IS023",
+  "fullname": "CHANDANA VEERABHADRESHWAR HIREMATH"
+},
+{
+  "role": "student",
+  "username": "2BA22IS024",
+  "password": "2BA22IS024",
+  "fullname": "DARSHAN JANIWARAD"
+},
+{
+  "role": "student",
+  "username": "2BA22IS025",
+  "password": "2BA22IS025",
+  "fullname": "DARUR EASHWAR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS084",
+  "password": "2BA22IS084",
+  "fullname": "SANTOSH YALLAPPA DODAMANI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS085",
+  "password": "2BA22IS085",
+  "fullname": "SAPNA SANGAPPAGOUD BIRADAR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS086",
+  "password": "2BA22IS086",
+  "fullname": "SARVESH N HIREMATH"
+},
+{
+  "role": "student",
+  "username": "2023010829",
+  "password": "2023010829",
+  "fullname": "TEJASHWINI P GUDAGUNTI"
+},
+{
+  "role": "student",
+  "username": "2023010297",
+  "password": "2023010297",
+  "fullname": "ARAFAT KHAZI"
+},
+{
+  "role": "student",
+  "username": "2023010193",
+  "password": "2023010193",
+  "fullname": "ARCHANA HADAPAD"
+},
+{
+  "role": "student",
+  "username": "2023010097",
+  "password": "2023010097",
+  "fullname": "BABALESHWAR SATISH BHIMASHANKAR"
+},
+{
+  "role": "student",
+  "username": "2023010004",
+  "password": "2023010004",
+  "fullname": "BABUGOUDA GANGANGOUDA PATIL"
+},
+{
+  "role": "student",
+  "username": "2023010431",
+  "password": "2023010431",
+  "fullname": "BASAVARAJ SADASIV ITTI"
+},
+{
+  "role": "student",
+  "username": "2023010706",
+  "password": "2023010706",
+  "fullname": "BASAVARAJ SHEKHAPPA YARAGATTI"
+},
+{
+  "role": "student",
+  "username": "2023010567",
+  "password": "2023010567",
+  "fullname": "BHAGYASHREE APPASAB KUMBAR"
+},
+{
+  "role": "student",
+  "username": "2BA20IS026",
+  "password": "2BA20IS026",
+  "fullname": "KAVYA MAHADEVAPPA VANDAL"
+},
+{
+  "role": "student",
+  "username": "2BA20IS027",
+  "password": "2BA20IS027",
+  "fullname": "KAVYA MAHAVEER NAGANUR"
+},
+{
+  "role": "student",
+  "username": "2BA20IS028",
+  "password": "2BA20IS028",
+  "fullname": "LAKHAN VITTAL HULAKUND"
+},
+{
+  "role": "student",
+  "username": "2BA20IS030",
+  "password": "2BA20IS030",
+  "fullname": "LAXMI HANUMANTH GIDDAPPANAVAR"
+},
+{
+  "role": "student",
+  "username": "2BA20IS032",
+  "password": "2BA20IS032",
+  "fullname": "MANJUNATH CHOUDRI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS033",
+  "password": "2BA20IS033",
+  "fullname": "MAYURESH LOKAPPA KUMBAR"
+},
+{
+  "role": "student",
+  "username": "2BA21IS033",
+  "password": "2BA21IS033",
+  "fullname": "KAVERI KRISHNA SHINDE"
+},
+{
+  "role": "student",
+  "username": "2BA21IS034",
+  "password": "2BA21IS034",
+  "fullname": "KEERTI DATTATREYA SAKRE"
+},
+{
+  "role": "student",
+  "username": "2BA21IS035",
+  "password": "2BA21IS035",
+  "fullname": "KOMAL SHRIKANT BOLISHETTI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS036",
+  "password": "2BA21IS036",
+  "fullname": "KUNDANA MARATHE"
+},
+{
+  "role": "student",
+  "username": "2BA21IS037",
+  "password": "2BA21IS037",
+  "fullname": "MADHURA V YADAHALLI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS038",
+  "password": "2BA21IS038",
+  "fullname": "MADHWESH SHRIKANT JAHAGIRADAR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS403",
+  "password": "2BA22IS403",
+  "fullname": "DEVARAJ NAGAPPA HOSUR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS026",
+  "password": "2BA22IS026",
+  "fullname": "DEEPA SANGAMESH KYADIGGERI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS027",
+  "password": "2BA22IS027",
+  "fullname": "DHANESHWARI NERTI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS028",
+  "password": "2BA22IS028",
+  "fullname": "GANESH J HIREMATH"
+},
+{
+  "role": "student",
+  "username": "2BA22IS029",
+  "password": "2BA22IS029",
+  "fullname": "GIRISH RADDER"
+},
+{
+  "role": "student",
+  "username": "2BA22IS030",
+  "password": "2BA22IS030",
+  "fullname": "GODESHWARI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS031",
+  "password": "2BA22IS031",
+  "fullname": "HANAMANTGOUDA BASAPPA DYAVANAL"
+},
+{
+  "role": "student",
+  "username": "2BA22IS032",
+  "password": "2BA22IS032",
+  "fullname": "HARISH TALAWAR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS087",
+  "password": "2BA22IS087",
+  "fullname": "SHAHEEN THANED"
+},
+{
+  "role": "student",
+  "username": "2BA22IS088",
+  "password": "2BA22IS088",
+  "fullname": "SHILPA RAJAKUMAR BALAMI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS089",
+  "password": "2BA22IS089",
+  "fullname": "SHILPA SANGAPPA CHITTARAGI"
+},
+{
+  "role": "student",
+  "username": "2023010822",
+  "password": "2023010822",
+  "fullname": "SAKSHI PATANGE"
+},
+{
+  "role": "student",
+  "username": "2023010513",
+  "password": "2023010513",
+  "fullname": "BHAVANA MALLIKARJUN HUNAGUND"
+},
+{
+  "role": "student",
+  "username": "2023010542",
+  "password": "2023010542",
+  "fullname": "BHOOMI PRASAD GADAGI"
+},
+{
+  "role": "student",
+  "username": "2023010016",
+  "password": "2023010016",
+  "fullname": "CHANDRIKA KIDAYYA MATH"
+},
+{
+  "role": "student",
+  "username": "2023010524",
+  "password": "2023010524",
+  "fullname": "CHETAN DUNDAPPA SHEBANNAVAR"
+},
+{
+  "role": "student",
+  "username": "2023010308",
+  "password": "2023010308",
+  "fullname": "CHINMAY HIREMATH"
+},
+{
+  "role": "student",
+  "username": "2023010064",
+  "password": "2023010064",
+  "fullname": "CHINMAYI BOPARDEKAR"
+},
+{
+  "role": "student",
+  "username": "2023010521",
+  "password": "2023010521",
+  "fullname": "D M NIHARIKA"
+},
+{
+  "role": "student",
+  "username": "2BA20IS034",
+  "password": "2BA20IS034",
+  "fullname": "MEGHA GIRISH DEVARADDI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS035",
+  "password": "2BA20IS035",
+  "fullname": "MOHAMMED REHAN"
+},
+{
+  "role": "student",
+  "username": "2BA20IS036",
+  "password": "2BA20IS036",
+  "fullname": "NEELA"
+},
+{
+  "role": "student",
+  "username": "2BA21IS096",
+  "password": "2BA21IS096",
+  "fullname": "UMAR KOLAHAR"
+},
+{
+  "role": "student",
+  "username": "2BA21IS039",
+  "password": "2BA21IS039",
+  "fullname": "MAHANTESH DHAREPPA KONNUR"
+},
+{
+  "role": "student",
+  "username": "2BA21IS040",
+  "password": "2BA21IS040",
+  "fullname": "MAHESH VISHWANATH HOSAGOUDAR"
+},
+{
+  "role": "student",
+  "username": "2BA21IS041",
+  "password": "2BA21IS041",
+  "fullname": "MUSKAN KHATIB"
+},
+{
+  "role": "student",
+  "username": "2BA21IS042",
+  "password": "2BA21IS042",
+  "fullname": "NAVEEN KANAKARADDI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS043",
+  "password": "2BA21IS043",
+  "fullname": "NAVEEN KUMAR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS402",
+  "password": "2BA22IS402",
+  "fullname": "BIBIAYESHA ASLAM JAKATI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS033",
+  "password": "2BA22IS033",
+  "fullname": "HARSHAVARDHAN R KUMRE"
+},
+{
+  "role": "student",
+  "username": "2BA22IS034",
+  "password": "2BA22IS034",
+  "fullname": "JYOTHI MALAPPA TELAGI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS035",
+  "password": "2BA22IS035",
+  "fullname": "JYOTIKA NARAYAN KALAL"
+},
+{
+  "role": "student",
+  "username": "2BA22IS036",
+  "password": "2BA22IS036",
+  "fullname": "KARISHMA T BARIGIDAD"
+},
+{
+  "role": "student",
+  "username": "2BA22IS037",
+  "password": "2BA22IS037",
+  "fullname": "KAVERI PANDAPPA KALLENNAVAR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS090",
+  "password": "2BA22IS090",
+  "fullname": "SHIVANI MANVI"
+},
+{
+  "role": "student",
+  "username": "2023010849",
+  "password": "2023010849",
+  "fullname": "NAGARAJ T DEVANAGAVI"
+},
+{
+  "role": "student",
+  "username": "2023010086",
+  "password": "2023010086",
+  "fullname": "DARSHAN SHRINIVAS MULLUR"
+},
+{
+  "role": "student",
+  "username": "2023010449",
+  "password": "2023010449",
+  "fullname": "DEEPIKA"
+},
+{
+  "role": "student",
+  "username": "2023010049",
+  "password": "2023010049",
+  "fullname": "DIKSHA SIDDANAGOUD A PATIL"
+},
+{
+  "role": "student",
+  "username": "2023010313",
+  "password": "2023010313",
+  "fullname": "DIVA P PALIWAL"
+},
+{
+  "role": "student",
+  "username": "2023010030",
+  "password": "2023010030",
+  "fullname": "GANESH MUDDAPPA DANGI"
+},
+{
+  "role": "student",
+  "username": "2023010077",
+  "password": "2023010077",
+  "fullname": "GOURI SUBODHA DESAI"
+},
+{
+  "role": "student",
+  "username": "2023010312",
+  "password": "2023010312",
+  "fullname": "HEMANK G PALIWAL"
+},
+{
+  "role": "student",
+  "username": "2023010479",
+  "password": "2023010479",
+  "fullname": "KALLAPPA SHREESHAIL TARAPUR"
+},
+{
+  "role": "student",
+  "username": "2023010328",
+  "password": "2023010328",
+  "fullname": "KARTHIKEYA MAHANTESH GADATARANAVAR"
+},
+{
+  "role": "student",
+  "username": "2023010253",
+  "password": "2023010253",
+  "fullname": "KAVYANJALI BASAPPA B PATIL"
+},
+{
+  "role": "student",
+  "username": "2023010525",
+  "password": "2023010525",
+  "fullname": "KRISHNA RAMAPPA BHAJANTRI"
+},
+{
+  "role": "student",
+  "username": "2023010005",
+  "password": "2023010005",
+  "fullname": "KSHAMA NARAYAN PENDSE"
+},
+{
+  "role": "student",
+  "username": "2023010310",
+  "password": "2023010310",
+  "fullname": "KSHITI BASAVARAJ PATIL"
+},
+{
+  "role": "student",
+  "username": "2023010657",
+  "password": "2023010657",
+  "fullname": "LAXMI MAHESH BETAGERI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS037",
+  "password": "2BA20IS037",
+  "fullname": "NIDHI P BENNUR"
+},
+{
+  "role": "student",
+  "username": "2BA20IS038",
+  "password": "2BA20IS038",
+  "fullname": "POOJA SHIVANAND ULLEGADDI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS039",
+  "password": "2BA20IS039",
+  "fullname": "PRAGATI BULLA"
+},
+{
+  "role": "student",
+  "username": "2BA20IS040",
+  "password": "2BA20IS040",
+  "fullname": "PRAGATI GIRISH SAWKAR"
+},
+{
+  "role": "student",
+  "username": "2BA20IS041",
+  "password": "2BA20IS041",
+  "fullname": "PRAJWAL K TRIVEDI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS044",
+  "password": "2BA21IS044",
+  "fullname": "NAVYASHREE"
+},
+{
+  "role": "student",
+  "username": "2BA21IS045",
+  "password": "2BA21IS045",
+  "fullname": "NIKHAT M ITAGI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS046",
+  "password": "2BA21IS046",
+  "fullname": "NIKHIL NANDIGATTI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS047",
+  "password": "2BA21IS047",
+  "fullname": "OMKAR BHAVIKATTI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS048",
+  "password": "2BA21IS048",
+  "fullname": "POOJA BASAVARAJ KALYANI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS049",
+  "password": "2BA21IS049",
+  "fullname": "POORVA VINAY PATIL"
+},
+{
+  "role": "student",
+  "username": "2BA21IS050",
+  "password": "2BA21IS050",
+  "fullname": "PRAJWAL G ANGADI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS404",
+  "password": "2BA22IS404",
+  "fullname": "MALLIKARJUN BHAKARE"
+},
+{
+  "role": "student",
+  "username": "2BA22IS038",
+  "password": "2BA22IS038",
+  "fullname": "KEERTI TAMMANAGOUDA PATIL"
+},
+{
+  "role": "student",
+  "username": "2BA22IS039",
+  "password": "2BA22IS039",
+  "fullname": "KHUSHI RAVI KULKARNI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS040",
+  "password": "2BA22IS040",
+  "fullname": "KIRAN SIDDALINGESH KONANAVAR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS041",
+  "password": "2BA22IS041",
+  "fullname": "KRISHNAKUMAR G BHADRASHETTI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS042",
+  "password": "2BA22IS042",
+  "fullname": "KSHAMA SANGAYYA SARANGMATH"
+},
+{
+  "role": "student",
+  "username": "2BA22IS043",
+  "password": "2BA22IS043",
+  "fullname": "LAXMI CHIMMALAGI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS093",
+  "password": "2BA22IS093",
+  "fullname": "SHREYAS GAJANANA BHAT"
+},
+{
+  "role": "student",
+  "username": "2023010838",
+  "password": "2023010838",
+  "fullname": "KIRTIKA C ARABBI"
+},
+{
+  "role": "student",
+  "username": "2023010007",
+  "password": "2023010007",
+  "fullname": "MADHU SAKKARAGOU D GIRADDI"
+},
+{
+  "role": "student",
+  "username": "2023010472",
+  "password": "2023010472",
+  "fullname": "MAHESH MARUTI MASHANATTI"
+},
+{
+  "role": "student",
+  "username": "2023010269",
+  "password": "2023010269",
+  "fullname": "MALLIKARJUN PAWALE"
+},
+{
+  "role": "student",
+  "username": "2023010402",
+  "password": "2023010402",
+  "fullname": "MAYURI VIRUPAKSH KODOLLI"
+},
+{
+  "role": "student",
+  "username": "2023010137",
+  "password": "2023010137",
+  "fullname": "MEDHA B CHITRAGAR"
+},
+{
+  "role": "student",
+  "username": "2023010485",
+  "password": "2023010485",
+  "fullname": "MEGHA BASAVARAJ GIRAGANVI"
+},
+{
+  "role": "student",
+  "username": "2023010324",
+  "password": "2023010324",
+  "fullname": "MEGHA MUDAKAPPA NYAMAGOUD"
+},
+{
+  "role": "student",
+  "username": "2023010061",
+  "password": "2023010061",
+  "fullname": "NAVEEN SHRISHAIL HUNSHYAL"
+},
+{
+  "role": "student",
+  "username": "2023010321",
+  "password": "2023010321",
+  "fullname": "NAVEEN UGALAT"
+},
+{
+  "role": "student",
+  "username": "2023010598",
+  "password": "2023010598",
+  "fullname": "NEHA BASAVANAL"
+},
+{
+  "role": "student",
+  "username": "2BA20IS042",
+  "password": "2BA20IS042",
+  "fullname": "PRAMOD MASANAKATTI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS043",
+  "password": "2BA20IS043",
+  "fullname": "PRAMOD Y MALALI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS044",
+  "password": "2BA20IS044",
+  "fullname": "PRANJALI SHRIDHAR SATARADDI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS045",
+  "password": "2BA20IS045",
+  "fullname": "PRASHANT VITTHALRAO KULAKARNI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS046",
+  "password": "2BA20IS046",
+  "fullname": "PRATIKSHA MIRJE"
+},
+{
+  "role": "student",
+  "username": "2BA20IS048",
+  "password": "2BA20IS048",
+  "fullname": "PRIYANKA SAJJAN"
+},
+{
+  "role": "student",
+  "username": "2BA20IS049",
+  "password": "2BA20IS049",
+  "fullname": "PRIYANKA VENKATESH BIRADAR"
+},
+{
+  "role": "student",
+  "username": "2BA20IS050",
+  "password": "2BA20IS050",
+  "fullname": "RAHUL ANKALKOTI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS051",
+  "password": "2BA20IS051",
+  "fullname": "RAJASHREE NIJALINGANAGOUD PATIL"
+},
+{
+  "role": "student",
+  "username": "2BA20IS052",
+  "password": "2BA20IS052",
+  "fullname": "RAJESHWARI B KATTIMANI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS053",
+  "password": "2BA20IS053",
+  "fullname": "RASHMI SATARADDI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS054",
+  "password": "2BA20IS054",
+  "fullname": "RAVINDRA KULKARNI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS055",
+  "password": "2BA20IS055",
+  "fullname": "SAHANA RANGANATH BATAKURKI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS056",
+  "password": "2BA20IS056",
+  "fullname": "SAMARTH SHREESHAIL BAGALUR"
+},
+{
+  "role": "student",
+  "username": "2BA20IS057",
+  "password": "2BA20IS057",
+  "fullname": "SAMPATH VIDYADHAR YALAWAR"
+},
+{
+  "role": "student",
+  "username": "2BA20IS058",
+  "password": "2BA20IS058",
+  "fullname": "SANJANA BASAVARAJ BOMBLE"
+},
+{
+  "role": "student",
+  "username": "2BA20IS059",
+  "password": "2BA20IS059",
+  "fullname": "SHABARISH S B"
+},
+{
+  "role": "student",
+  "username": "2BA21IS400",
+  "password": "2BA21IS400",
+  "fullname": "AKSHATA .M.YADAWAD"
+},
+{
+  "role": "student",
+  "username": "2BA21IS401",
+  "password": "2BA21IS401",
+  "fullname": "DEEPA.S.PARAMAGOND"
+},
+{
+  "role": "student",
+  "username": "2BA21IS402",
+  "password": "2BA21IS402",
+  "fullname": "MOHAMAD .ACHANOOR"
+},
+{
+  "role": "student",
+  "username": "2BA21IS403",
+  "password": "2BA21IS403",
+  "fullname": "NEHA.C.KAMBALIMATH"
+},
+{
+  "role": "student",
+  "username": "2BA21IS404",
+  "password": "2BA21IS404",
+  "fullname": "NIRANJAN .I. HIREMATH"
+},
+{
+  "role": "student",
+  "username": "2BA21IS405",
+  "password": "2BA21IS405",
+  "fullname": "SEEMA.S.SINGADI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS406",
+  "password": "2BA21IS406",
+  "fullname": "VAISHNAVI .V. KULKARNI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS407",
+  "password": "2BA21IS407",
+  "fullname": "VEERESH"
+},
+{
+  "role": "student",
+  "username": "2BA21IS408",
+  "password": "2BA21IS408",
+  "fullname": "VIDYA .B. BHAJANTRI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS406",
+  "password": "2BA22IS406",
+  "fullname": "ROHAN SANJAY PATIL"
+},
+{
+  "role": "student",
+  "username": "2023010834",
+  "password": "2023010834",
+  "fullname": "MANJUNATH M PAWAR"
+},
+{
+  "role": "student",
+  "username": "2023010101",
+  "password": "2023010101",
+  "fullname": "NISHCHIT V RAO"
+},
+{
+  "role": "student",
+  "username": "2023010345",
+  "password": "2023010345",
+  "fullname": "PALLAVI M TIMALAPUR"
+},
+{
+  "role": "student",
+  "username": "2023010066",
+  "password": "2023010066",
+  "fullname": "PARTH MANE"
+},
+{
+  "role": "student",
+  "username": "2BA20IS060",
+  "password": "2BA20IS060",
+  "fullname": "SHANTANOO KULKARNI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS029",
+  "password": "2BA20IS029",
+  "fullname": "LAXMI NARAYANPURI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS051",
+  "password": "2BA21IS051",
+  "fullname": "PRAJWAL M DEVALAPURMATH"
+},
+{
+  "role": "student",
+  "username": "2BA21IS052",
+  "password": "2BA21IS052",
+  "fullname": "PRAJWAL SHANKAR KADAM"
+},
+{
+  "role": "student",
+  "username": "2BA21IS053",
+  "password": "2BA21IS053",
+  "fullname": "PRATHAM DESAI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS054",
+  "password": "2BA21IS054",
+  "fullname": "PRATIKSHA TOTAD"
+},
+{
+  "role": "student",
+  "username": "2BA21IS055",
+  "password": "2BA21IS055",
+  "fullname": "PREKSHA PRABHAKAR GULED"
+},
+{
+  "role": "student",
+  "username": "2BA21IS056",
+  "password": "2BA21IS056",
+  "fullname": "PRERANA MANTRI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS057",
+  "password": "2BA21IS057",
+  "fullname": "PURANIK ANIRUDHA"
+},
+{
+  "role": "student",
+  "username": "2BA21IS058",
+  "password": "2BA21IS058",
+  "fullname": "RAKESH RAMESH SANSHI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS059",
+  "password": "2BA21IS059",
+  "fullname": "RAKSHITA R YARADONI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS060",
+  "password": "2BA21IS060",
+  "fullname": "RISHI ISARADDI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS061",
+  "password": "2BA21IS061",
+  "fullname": "SAHANA ADIVEPPA KOPPAD"
+},
+{
+  "role": "student",
+  "username": "2BA22IS405",
+  "password": "2BA22IS405",
+  "fullname": "PRAVEEN I KENCHAKANAVAR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS044",
+  "password": "2BA22IS044",
+  "fullname": "LEKARAJ NAIK"
+},
+{
+  "role": "student",
+  "username": "2BA22IS045",
+  "password": "2BA22IS045",
+  "fullname": "MADHAV DESAI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS046",
+  "password": "2BA22IS046",
+  "fullname": "MADHUMITA M KUPASTH"
+},
+{
+  "role": "student",
+  "username": "2BA22IS047",
+  "password": "2BA22IS047",
+  "fullname": "MALLANAGOUD SHANTAGOUD BIRADAR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS048",
+  "password": "2BA22IS048",
+  "fullname": "MANJUNATH"
+},
+{
+  "role": "student",
+  "username": "2BA22IS049",
+  "password": "2BA22IS049",
+  "fullname": "NAGARAJ YOGESH KAMMAR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS094",
+  "password": "2BA22IS094",
+  "fullname": "SHREYAS KASHINATH MULIMANI"
+},
+{
+  "role": "student",
+  "username": "2023010750",
+  "password": "2023010750",
+  "fullname": "SNEHA M DANAPPANAVAR"
+},
+{
+  "role": "student",
+  "username": "2023010198",
+  "password": "2023010198",
+  "fullname": "PAVAN MANJUNATH BARKER"
+},
+{
+  "role": "student",
+  "username": "2023010501",
+  "password": "2023010501",
+  "fullname": "POORVI SHIVAYYA JADIMATH"
+},
+{
+  "role": "student",
+  "username": "2023010044",
+  "password": "2023010044",
+  "fullname": "PRAJWAL B HALEMANI"
+},
+{
+  "role": "student",
+  "username": "2023010254",
+  "password": "2023010254",
+  "fullname": "PRAJWAL TUKARAM TORAVI"
+},
+{
+  "role": "student",
+  "username": "2023010415",
+  "password": "2023010415",
+  "fullname": "PRANATI DEVENDRA HALAKURKI"
+},
+{
+  "role": "student",
+  "username": "2023010551",
+  "password": "2023010551",
+  "fullname": "PRANAV KORWAR"
+},
+{
+  "role": "student",
+  "username": "2023010705",
+  "password": "2023010705",
+  "fullname": "PRASHANT HANAMANTH CHINNANAGOUDAR"
+},
+{
+  "role": "student",
+  "username": "2023010430",
+  "password": "2023010430",
+  "fullname": "PRATEEK CHANDRASHE KHAR BIRADAR"
+},
+{
+  "role": "student",
+  "username": "2023010003",
+  "password": "2023010003",
+  "fullname": "PRATEEK KULAKARNI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS063",
+  "password": "2BA20IS063",
+  "fullname": "SHREYA D DIXIT"
+},
+{
+  "role": "student",
+  "username": "2BA20IS064",
+  "password": "2BA20IS064",
+  "fullname": "SHREYA KATAGERI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS065",
+  "password": "2BA20IS065",
+  "fullname": "SHREYA KATTI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS066",
+  "password": "2BA20IS066",
+  "fullname": "SIDDU VIRUPAXAYYA HIREMATH"
+},
+{
+  "role": "student",
+  "username": "2BA20IS068",
+  "password": "2BA20IS068",
+  "fullname": "SOMASHEKHAR"
+},
+{
+  "role": "student",
+  "username": "2BA20IS069",
+  "password": "2BA20IS069",
+  "fullname": "SOUJANYA I PAVATE"
+},
+{
+  "role": "student",
+  "username": "2BA20IS070",
+  "password": "2BA20IS070",
+  "fullname": "SUJATHA"
+},
+{
+  "role": "student",
+  "username": "2BA20IS071",
+  "password": "2BA20IS071",
+  "fullname": "SUMAN TOTAD"
+},
+{
+  "role": "student",
+  "username": "2BA20IS072",
+  "password": "2BA20IS072",
+  "fullname": "SUMANTH ANGADI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS073",
+  "password": "2BA20IS073",
+  "fullname": "SUSHMA KATTI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS078",
+  "password": "2BA21IS078",
+  "fullname": "SOUMYA R LANKAL"
+},
+{
+  "role": "student",
+  "username": "2BA21IS079",
+  "password": "2BA21IS079",
+  "fullname": "SPOORTI B PASANNAVAR"
+},
+{
+  "role": "student",
+  "username": "2BA21IS080",
+  "password": "2BA21IS080",
+  "fullname": "SPOORTI PATIL"
+},
+{
+  "role": "student",
+  "username": "2BA22IS066",
+  "password": "2BA22IS066",
+  "fullname": "RAGHUNANDAN R HULKOTI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS067",
+  "password": "2BA22IS067",
+  "fullname": "RAHUL BALKRISHNA WADDAR"
+},
+{
+  "role": "student",
+  "username": "2BA22IS068",
+  "password": "2BA22IS068",
+  "fullname": "RAHUL RAJENDRA SUNKE"
+},
+{
+  "role": "student",
+  "username": "2BA22IS069",
+  "password": "2BA22IS069",
+  "fullname": "RAKSHITA RAMESH BAJANTRI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS070",
+  "password": "2BA22IS070",
+  "fullname": "RAMYA PRAVEEN VAIDYA"
+},
+{
+  "role": "student",
+  "username": "2BA22IS098",
+  "password": "2BA22IS098",
+  "fullname": "SIDDALING"
+},
+{
+  "role": "student",
+  "username": "2023010757",
+  "password": "2023010757",
+  "fullname": "GIRIMALLAYYA G MATHAPATI"
+},
+{
+  "role": "student",
+  "username": "COB",
+  "password": "COB",
+  "fullname": "Vijayalaxmi Sankinamath"
+},
+{
+  "role": "student",
+  "username": "2023010221",
+  "password": "2023010221",
+  "fullname": "SUDHARANI SOMANATH NAGATHAN"
+},
+{
+  "role": "student",
+  "username": "2023010053",
+  "password": "2023010053",
+  "fullname": "SUJAL BEVANUR"
+},
+{
+  "role": "student",
+  "username": "2023010096",
+  "password": "2023010096",
+  "fullname": "SUJAY SAMEER JOSHI"
+},
+{
+  "role": "student",
+  "username": "2023010087",
+  "password": "2023010087",
+  "fullname": "SUMEET RAMESH KASBEGOUDAR"
+},
+{
+  "role": "student",
+  "username": "2023010609",
+  "password": "2023010609",
+  "fullname": "SWAYAM ANDANAYYA HIREMATH"
+},
+{
+  "role": "student",
+  "username": "2023010270",
+  "password": "2023010270",
+  "fullname": "TANISH KESHAV KUNTHE"
+},
+{
+  "role": "student",
+  "username": "2023010078",
+  "password": "2023010078",
+  "fullname": "TILAK H NAIK"
+},
+{
+  "role": "student",
+  "username": "2023010039",
+  "password": "2023010039",
+  "fullname": "TRIVENI SHEKHARAPPA KALAVVAGOL"
+},
+{
+  "role": "student",
+  "username": "2023010076",
+  "password": "2023010076",
+  "fullname": "TRUPTI D KONNUR"
+},
+{
+  "role": "student",
+  "username": "2023010119",
+  "password": "2023010119",
+  "fullname": "TUSHAR HIREMATH"
+},
+{
+  "role": "student",
+  "username": "2023010028",
+  "password": "2023010028",
+  "fullname": "VAISHNAVI RAMESH SUNAGAR"
+},
+{
+  "role": "student",
+  "username": "2BA18IS036",
+  "password": "2BA18IS036",
+  "fullname": "MEGHANA VASANAD"
+},
+{
+  "role": "student",
+  "username": "2BA20IS406",
+  "password": "2BA20IS406",
+  "fullname": "PRAVEEN MAAN"
+},
+{
+  "role": "student",
+  "username": "2BA21IS075",
+  "password": "2BA21IS075",
+  "fullname": "SHRUSHTI KONAPPANAVAR"
+},
+{
+  "role": "student",
+  "username": "2BA21IS076",
+  "password": "2BA21IS076",
+  "fullname": "SHRUSHTI VIJAYAKUMAR MENASAGI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS077",
+  "password": "2BA21IS077",
+  "fullname": "SINDHU CHANDRASHEKHAR JAKATI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS063",
+  "password": "2BA22IS063",
+  "fullname": "PREETI C SOPPIHIREMATH"
+},
+{
+  "role": "student",
+  "username": "2BA22IS064",
+  "password": "2BA22IS064",
+  "fullname": "PRIYANKA S PATIL"
+},
+{
+  "role": "student",
+  "username": "2BA22IS065",
+  "password": "2BA22IS065",
+  "fullname": "RAFATKOUSAR NOORAHMAD BEPARI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS097",
+  "password": "2BA22IS097",
+  "fullname": "SHWETA VITHAL KALAHAL"
+},
+{
+  "role": "student",
+  "username": "2023010774",
+  "password": "2023010774",
+  "fullname": "SRUSHTI S MEDAR"
+},
+{
+  "role": "student",
+  "username": "com",
+  "password": "com",
+  "fullname": "Sanjana kulkarni"
+},
+{
+  "role": "student",
+  "username": "2023010329",
+  "password": "2023010329",
+  "fullname": "SANGAM GADDI"
+},
+{
+  "role": "student",
+  "username": "2023010490",
+  "password": "2023010490",
+  "fullname": "SANGAMESH N KAVADIMATTI"
+},
+{
+  "role": "student",
+  "username": "2023010255",
+  "password": "2023010255",
+  "fullname": "SAVITRI GOUDAPPA BIRADAR"
+},
+{
+  "role": "student",
+  "username": "2023010614",
+  "password": "2023010614",
+  "fullname": "SHAILA RAMAPPA HEBASUR"
+},
+{
+  "role": "student",
+  "username": "2023010026",
+  "password": "2023010026",
+  "fullname": "SHIVAPRASAD REDDY S S"
+},
+{
+  "role": "student",
+  "username": "2023010529",
+  "password": "2023010529",
+  "fullname": "SHREYA SURESH FAKIRAPUR"
+},
+{
+  "role": "student",
+  "username": "2023010391",
+  "password": "2023010391",
+  "fullname": "SHRILAXMI VEERANNA GONDI"
+},
+{
+  "role": "student",
+  "username": "2023010072",
+  "password": "2023010072",
+  "fullname": "SIDDALINGESH V PATTANSHETTI"
+},
+{
+  "role": "student",
+  "username": "2023010348",
+  "password": "2023010348",
+  "fullname": "SNEHA CHANDRASHE KHAR YALIGAR"
+},
+{
+  "role": "student",
+  "username": "2023010322",
+  "password": "2023010322",
+  "fullname": "SOHAM PATIL"
+},
+{
+  "role": "student",
+  "username": "2023010406",
+  "password": "2023010406",
+  "fullname": "SOUJANYA JANGAMASHETTI"
+},
+{
+  "role": "student",
+  "username": "2023010029",
+  "password": "2023010029",
+  "fullname": "SOUJANYA K MOHARE"
+},
+{
+  "role": "student",
+  "username": "2023010687",
+  "password": "2023010687",
+  "fullname": "SOUMYA MALLAPPA TIPARADDI"
+},
+{
+  "role": "student",
+  "username": "2023010424",
+  "password": "2023010424",
+  "fullname": "SPOORTHI SHANKRANAN D SAMBRANI"
+},
+{
+  "role": "student",
+  "username": "2023010347",
+  "password": "2023010347",
+  "fullname": "SRIJAN K PATGAR"
+},
+{
+  "role": "student",
+  "username": "2023010505",
+  "password": "2023010505",
+  "fullname": "SRUSHTI ASHOK TELI"
+},
+{
+  "role": "student",
+  "username": "2023010052",
+  "password": "2023010052",
+  "fullname": "SRUSHTI GANESH NARA"
+},
+{
+  "role": "student",
+  "username": "2023010125",
+  "password": "2023010125",
+  "fullname": "SRUSTI R KULKARNI"
+},
+{
+  "role": "student",
+  "username": "2023010130",
+  "password": "2023010130",
+  "fullname": "SUBHODAY KULKARNI"
+},
+{
+  "role": "student",
+  "username": "2023010416",
+  "password": "2023010416",
+  "fullname": "SUDEEP RAMESH RATHOD"
+},
+{
+  "role": "student",
+  "username": "2023010216",
+  "password": "2023010216",
+  "fullname": "SUDEEP SANJEEV BADAMMANAV AR"
+},
+{
+  "role": "student",
+  "username": "2BA19IS020",
+  "password": "2BA19IS020",
+  "fullname": "AVINASH RAMANNAVAR"
+},
+{
+  "role": "student",
+  "username": "2BA20IS074",
+  "password": "2BA20IS074",
+  "fullname": "VAIBHAV MAHESH SUGANDHI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS075",
+  "password": "2BA20IS075",
+  "fullname": "VIDYASHREE VEERESH MAYACHARYA"
+},
+{
+  "role": "student",
+  "username": "2BA20IS076",
+  "password": "2BA20IS076",
+  "fullname": "VINAY M HIREMATH"
+},
+{
+  "role": "student",
+  "username": "2BA20IS077",
+  "password": "2BA20IS077",
+  "fullname": "VINUTANA VITTAL DEVARADDI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS078",
+  "password": "2BA20IS078",
+  "fullname": "VISHWAS BHEEMAPPA BADIGER"
+},
+{
+  "role": "student",
+  "username": "2BA20IS079",
+  "password": "2BA20IS079",
+  "fullname": "YASHODHA SHIVANAND DALAWAI"
+},
+{
+  "role": "student",
+  "username": "2BA20IS031",
+  "password": "2BA20IS031",
+  "fullname": "MALLIKARJUN KALLURMATH"
+},
+{
+  "role": "student",
+  "username": "2BA21IS070",
+  "password": "2BA21IS070",
+  "fullname": "SHEETAL G PATIL"
+},
+{
+  "role": "student",
+  "username": "2BA21IS071",
+  "password": "2BA21IS071",
+  "fullname": "SHREEDEVI NAYAK"
+},
+{
+  "role": "student",
+  "username": "2BA21IS072",
+  "password": "2BA21IS072",
+  "fullname": "SHREENIDHI KULKARNI"
+},
+{
+  "role": "student",
+  "username": "2BA21IS073",
+  "password": "2BA21IS073",
+  "fullname": "SHREYA RUDRAGOUDA PATIL"
+},
+{
+  "role": "student",
+  "username": "2BA21IS074",
+  "password": "2BA21IS074",
+  "fullname": "SHRINIDHI M LOKAPUR"
+},
+{
+  "role": "student",
+  "username": "2BA21IS095",
+  "password": "2BA21IS095",
+  "fullname": "AISHWARYA PATIL"
+},
+{
+  "role": "student",
+  "username": "2BA22IS057",
+  "password": "2BA22IS057",
+  "fullname": "POORVI YAMANAPPA KHEDAD"
+},
+{
+  "role": "student",
+  "username": "2BA22IS058",
+  "password": "2BA22IS058",
+  "fullname": "PRADEEP MUTALIK"
+},
+{
+  "role": "student",
+  "username": "2BA22IS059",
+  "password": "2BA22IS059",
+  "fullname": "PRAJWAL KOTI"
+},
+{
+  "role": "student",
+  "username": "2BA22IS061",
+  "password": "2BA22IS061",
+  "fullname": "PRATIBHA NAIK"
+},
+{
+  "role": "student",
+  "username": "2BA22IS062",
+  "password": "2BA22IS062",
+  "fullname": "PRATIK SATYANAIK"
+},
+{
+  "role": "student",
+  "username": "2BA22IS096",
+  "password": "2BA22IS096",
+  "fullname": "SHUBHAM MOHANASA MALAJI"
+},
+{
+  "role": "student",
+  "username": "2023010715",
+  "password": "2023010715",
+  "fullname": "PAVAN SOMPUR"
+},
+{
+  "role": "student",
+  "username": "COB",
+  "password": "COB",
+  "fullname": "Sreya Pujari"
+},
+{
+  "role": "student",
+  "username": "2023010669",
+  "password": "2023010669",
+  "fullname": "RANJITA BENAKATTI"
+},
+{
+  "role": "student",
+  "username": "2023010102",
+  "password": "2023010102",
+  "fullname": "ROHAN M C"
+},
+{
+  "role": "student",
+  "username": "2023010008",
+  "password": "2023010008",
+  "fullname": "ROHIT RAMESH MULIMANI"
+},
+{
+  "role": "student",
+  "username": "2023010583",
+  "password": "2023010583",
+  "fullname": "ROOPA SANJAY JEDAR"
+},
+{
+  "role": "student",
+  "username": "2023010320",
+  "password": "2023010320",
+  "fullname": "SAHANA M PUJAR"
+},
+{
+  "role": "student",
+  "username": "2023010522",
+  "password": "2023010522",
+  "fullname": "SAHANA S KALHOL"
+},
+{
+  "role": "student",
+  "username": "2023010475",
+  "password": "2023010475",
+  "fullname": "SAKSHI PRABHULING SAVALAGI"
+},
+{
+  "role": "student",
+  "username": "2023010553",
+  "password": "2023010553",
+  "fullname": "SAMARTH"
+},
+{
+  "role": "student",
+  "username": "2023010105",
+  "password": "2023010105",
+  "fullname": "SAMARTH SHANKAR KAGWAD"
+},
+{
+  "role": "student",
+  "username": "2023010065",
+  "password": "2023010065",
+  "fullname": "SAMPRITH HOLEPPAGOL"
+}]
