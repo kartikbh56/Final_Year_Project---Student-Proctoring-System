@@ -34,7 +34,6 @@ const studentSchema = new mongoose.Schema({
   email: String,
   adhar: String,
   bloodGroup: String,
-  photo: { name: String, data: Buffer },
   facultyName: String,
   faculty: String,
   sem: String,
@@ -212,7 +211,6 @@ app.get("/dashboard", async function (req, res) {
       const {username:usn} = req.session.user
       const requiredData = await studentModel.findOne({usn}).exec()
       // console.log(requiredData)
-      console.log(role)
       res.render('student_form',{requiredData,role})
     }
   } else {
@@ -233,6 +231,12 @@ app.post("/student_details", async function (req, res) {
 // })
 
 // Logout route
+
+app.post('/student_form',function(req,res){
+  console.log(req.body)
+  res.redirect('/dashboard') 
+})
+
 app.post("/logout", (req, res) => {
   req.session.destroy((err) => {
     if (err) {
